@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gbSelectFederation.Text" xml:space="preserve">
+    <value>フェデレーションを選択</value>
+  </data>
+  <data name="gbSelectFederationMembers.Text" xml:space="preserve">
+    <value>フェデレーションメンバーを選択</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>フェデレーションを選択</value>
+  </data>
+  <data name="gbSelectDatabase.Text" xml:space="preserve">
+    <value>データベースを選択</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 24</value>
+  </data>
+  <data name="lbAction.Text" xml:space="preserve">
+    <value>データベースの選択</value>
+  </data>
+  <data name="lbActionDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 18</value>
+  </data>
+  <data name="lbActionDesc.Text" xml:space="preserve">
+    <value>スクリプト化したいデータベースを選択します</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODdhtQCEAOfXAAAAADMAAGYAAJkAAMwAAP8AAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlm
+        AMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAAD/ADP/AGb/AJn/AMz/AP//
+        AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZ
+        M2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMwD/MzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkA
+        ZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZv9mZgCZZjOZZmaZZpmZZsyZZv+Z
+        ZgDMZjPMZmbMZpnMZszMZv/MZgD/ZjP/Zmb/Zpn/Zsz/Zv//ZgAAmTMAmWYAmZkAmcwAmf8AmQAzmTMz
+        mWYzmZkzmcwzmf8zmQBmmTNmmWZmmZlmmcxmmf9mmQCZmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMmZnM
+        mczMmf/MmQD/mTP/mWb/mZn/mcz/mf//mQAAzDMAzGYAzJkAzMwAzP8AzAAzzDMzzGYzzJkzzMwzzP8z
+        zABmzDNmzGZmzJlmzMxmzP9mzACZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/
+        zGb/zJn/zMz/zP//zAAA/zMA/2YA/5kA/8wA//8A/wAz/zMz/2Yz/5kz/8wz//8z/wBm/zNm/2Zm/5lm
+        /8xm//9m/wCZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/wD//zP//2b//5n//8z/////
+        /////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCADYACwAAAAAtQCEAAAI/gCvCRxIsKDBgwgTKlzIsKHDhxAj
+        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
+        zhUW7ZbAgcSSsdzO5hZXY9YE7oUBAQA7
+</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="btnNext.Text" xml:space="preserve">
+    <value>次へ &gt;</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>&lt;戻る</value>
+  </data>
+  <data name="btnClearAll.Text" xml:space="preserve">
+    <value>全て解除</value>
+  </data>
+  <data name="btnSelectAll.Text" xml:space="preserve">
+    <value>全て選択</value>
+  </data>
+  <data name="btnConnectTargetServer.Text" xml:space="preserve">
+    <value>サーバへ接続</value>
+  </data>
+  <data name="btnCreateDatabase.Text" xml:space="preserve">
+    <value>データベースの作成</value>
+  </data>
+  <data name="btnDeleteDatabase.Text" xml:space="preserve">
+    <value>データベースの削除</value>
+  </data>
+  <data name="rbMaintenance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 346</value>
+  </data>
+  <data name="rbMaintenance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 22</value>
+  </data>
+  <data name="rbMaintenance.Text" xml:space="preserve">
+    <value>メンテナンス</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 316</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>サーバーメンテナンス</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 108</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 202</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>このウィザードは、選択されたデータベースを分析し、スクリプトを生成し、データベース スキーマーとデータを移行します。移行できる経路は以下の3つです。
+
+1) SQL Server から Azure SQL データベースへ
+2) Azure SQL データベースから SQL Serverへ
+3) Azure SQL データベースから Azure SQL データベースへ
+
+Azure SQL データベースとの互換性の問題の為に、SQL ProfilerトレースとTSQLスクリプトを分析します。
+
+補足：データベースを分析し、移行させるにはデータベース オーナー権限が必要です。</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 18</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>ファイルの選択</value>
+  </data>
+  <data name="btnFindFile.Text" xml:space="preserve">
+    <value>選択 ...</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 240</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 18</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>分析せずにT-SQLの実行</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 133</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 18</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>分析と移行</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 59</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 18</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>分析のみ</value>
+  </data>
+  <data name="rbRunTSQLFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 271</value>
+  </data>
+  <data name="rbRunTSQLFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="rbRunTSQLFile.Text" xml:space="preserve">
+    <value>T-SQL ファイル</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 194</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Text" xml:space="preserve">
+    <value>T-SQL ファイル</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 163</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Text" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 91</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 22</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Text" xml:space="preserve">
+    <value>SQL Profiler トレースファイル</value>
+  </data>
+  <data name="btnCancelProcessing.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="cbResultsScroll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 157</value>
+  </data>
+  <data name="cbResultsScroll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="cbResultsScroll.Text" xml:space="preserve">
+    <value>表示の自動スクロール</value>
+  </data>
+  <data name="tabResultsSummary.Text" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="tabSQLScript.Text" xml:space="preserve">
+    <value>SQL スクリプト</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="btnSkip.Text" xml:space="preserve">
+    <value>スキップ</value>
+  </data>
+  <data name="btnRetry.Text" xml:space="preserve">
+    <value>再試行</value>
+  </data>
+  <data name="tabResults.Text" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="btnSaveTargetResults.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="btnCancelTargetProcessing.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="cbAzureStatusScroll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 176</value>
+  </data>
+  <data name="cbAzureStatusScroll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="cbAzureStatusScroll.Text" xml:space="preserve">
+    <value>表示の自動スクロール</value>
+  </data>
+  <data name="btnAdvanced.Text" xml:space="preserve">
+    <value>詳細設定</value>
+  </data>
+  <data name="rbSpecificObjects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="rbSpecificObjects.Text" xml:space="preserve">
+    <value>スクリプト化するオブジェクトの選択</value>
+  </data>
+  <data name="rbScriptAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 22</value>
+  </data>
+  <data name="rbScriptAll.Text" xml:space="preserve">
+    <value>全てのデータベースオブジェクトのスクリプト化</value>
+  </data>
+  <data name="btnConnectToServer.Text" xml:space="preserve">
+    <value>サーバーに接続</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>スクリプト ウィザード</value>
+  </data>
+</root>

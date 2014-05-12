@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppendingScript" xml:space="preserve">
+    <value>組合指令碼：{0}之{1}</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>指令化表格 - </value>
+  </data>
+  <data name="ChooseTable" xml:space="preserve">
+    <value>請選擇一個資料表</value>
+  </data>
+  <data name="Discovering" xml:space="preserve">
+    <value>探索：{0}之{1}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>完成！</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="NoDatabaseSelected" xml:space="preserve">
+    <value>未選擇資料庫</value>
+  </data>
+  <data name="NoSqlServers" xml:space="preserve">
+    <value>網路上沒有找到 SQL Server</value>
+  </data>
+  <data name="Scripting" xml:space="preserve">
+    <value>產生指令碼{0}之{1}</value>
+  </data>
+  <data name="SqlError" xml:space="preserve">
+    <value>{0} 於伺服器 {6} : {7} 的程序 {5} 的第 {4} 行中擷取到嚴重性 {1}, 狀態 {2} 錯誤碼為 {3} 的錯誤。</value>
+  </data>
+  <data name="StateChanged" xml:space="preserve">
+    <value>狀態由{0}變為{1}</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>資料表</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>檢視表</value>
+  </data>
+  <data name="NoClusteredIndex" xml:space="preserve">
+    <value>--~----------------------------------------------------------------------------------------------------
+--~ 資料表{0}沒有叢集索引。
+--~ 您需要在加入資料前為它建立叢集索引。
+--~----------------------------------------------------------------------------------------------------</value>
+  </data>
+  <data name="NoClusteredIndex2" xml:space="preserve">
+    <value>資料表{0}沒有叢集索引。
+您需要在加入資料前為它建立叢集索引。</value>
+  </data>
+  <data name="UDTNotSupported" xml:space="preserve">
+    <value>**注意：目前SQL Database不支援使用者定義型別</value>
+  </data>
+  <data name="UDTNotSupported2" xml:space="preserve">
+    <value>目前SQL Database不支援使用者定義型別。
+已偵測到下列使用者定義的型別：</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported" xml:space="preserve">
+    <value>**注意：目前SQL Database不支援使XML Schema集合
+** 您需要修改資料表結構，將XML儲存到varchar(max)型別的欄位中
+** 並重新調整此程序的組態</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported2" xml:space="preserve">
+    <value>目前SQL Database不支援使XML Schema集合
+偵測到下列XML Schema集合：</value>
+  </data>
+  <data name="WizardActionSelectSource" xml:space="preserve">
+    <value>選擇來源</value>
+  </data>
+  <data name="WizardActionSelectSourceDesc" xml:space="preserve">
+    <value>選擇需要產生指令碼的來源</value>
+  </data>
+  <data name="WizardActionObjectTypes" xml:space="preserve">
+    <value>選擇物件</value>
+  </data>
+  <data name="WizardActionObjectTypesDesc" xml:space="preserve">
+    <value>選擇要產生指令碼的物件</value>
+  </data>
+  <data name="WizardActionResultsSummary" xml:space="preserve">
+    <value>結果概要</value>
+  </data>
+  <data name="WizardActionResultsSummaryDesc" xml:space="preserve">
+    <value>指令碼與分析概要</value>
+  </data>
+  <data name="WizardActionScriptingOptions" xml:space="preserve">
+    <value>設定指令碼選項</value>
+  </data>
+  <data name="WizardActionScriptingOptionsDesc" xml:space="preserve">
+    <value>設定產生指令碼的物件</value>
+  </data>
+  <data name="WizardActionScriptWizardSummary" xml:space="preserve">
+    <value>指令碼精靈概要</value>
+  </data>
+  <data name="WizardActionScriptWizardSummaryDesc" xml:space="preserve">
+    <value>檢查您在精靈中選擇的選項</value>
+  </data>
+  <data name="WizardActionSetupTargetConnection" xml:space="preserve">
+    <value>設定目標伺服器連線</value>
+  </data>
+  <data name="WizardActionSetupTargetConnectionDesc" xml:space="preserve">
+    <value>輸入連線到目標伺服器的資訊</value>
+  </data>
+  <data name="WizardActionTargetResults" xml:space="preserve">
+    <value>目標伺服器回應</value>
+  </data>
+  <data name="WizardActionTargetResultsDesc" xml:space="preserve">
+    <value>目標伺服器執行TSQL的回應</value>
+  </data>
+  <data name="ObjectTypeTriggers" xml:space="preserve">
+    <value>觸發程序</value>
+  </data>
+  <data name="ObjectTypeSchemas" xml:space="preserve">
+    <value>結構描述</value>
+  </data>
+  <data name="ObjectTypeStoredProcedures" xml:space="preserve">
+    <value>預存程序</value>
+  </data>
+  <data name="ObjectTypeTables" xml:space="preserve">
+    <value>資料表</value>
+  </data>
+  <data name="ObjectTypeUDF" xml:space="preserve">
+    <value>使用者定義函數</value>
+  </data>
+  <data name="ObjectTypeUDT" xml:space="preserve">
+    <value>使用者定義的資料類型</value>
+  </data>
+  <data name="ObjectTypeViews" xml:space="preserve">
+    <value>檢視表</value>
+  </data>
+  <data name="ObjectTypeXMLSchemaCollections" xml:space="preserve">
+    <value>XML Schema集合</value>
+  </data>
+  <data name="SMOOptionsGeneralDefaults" xml:space="preserve">
+    <value>為預設值產生指令碼。</value>
+  </data>
+  <data name="RemoveComment" xml:space="preserve">
+    <value>--~</value>
+  </data>
+  <data name="RemoveCommentEnd" xml:space="preserve">
+    <value>~*/</value>
+  </data>
+  <data name="RemoveCommentStart" xml:space="preserve">
+    <value>/*~</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value> -- 成功：</value>
+  </data>
+  <data name="AddingClusteredIndex" xml:space="preserve">
+    <value>正在 {1} 新增叢集索引 {0}，您可能需要變更此索引。</value>
+  </data>
+  <data name="AnalysisComplete" xml:space="preserve">
+    <value>SQL Database Migration Wizard 己經完成分析工作，任何己發現的問暊都會列在上方。</value>
+  </data>
+  <data name="ChangingClusteredIndex" xml:space="preserve">
+    <value>正在修改索引{0}.{1}為叢集索引。您可能會想選擇其他索引作為叢集索引。</value>
+  </data>
+  <data name="NoIndexableColumns" xml:space="preserve">
+    <value>資料表{0}是一個累堆 (heap)，而且沒有可索引的資料欄，您將會需要在移轉此表格前加入一個叢集索引。</value>
+  </data>
+  <data name="UDTNotSupported1" xml:space="preserve">
+    <value>目前SQL Database不支援使用者定義型別</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported1" xml:space="preserve">
+    <value>目前SQL Database不支援使XML Schema集合</value>
+  </data>
+  <data name="ObjectTypeRoles" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="WizardAction" xml:space="preserve">
+    <value>選擇流程</value>
+  </data>
+  <data name="WizardActionDesc" xml:space="preserve">
+    <value>選擇您希望精靈協助完成的任務</value>
+  </data>
+  <data name="BCPOutputFile" xml:space="preserve">
+    <value>BCP輸出檔案：</value>
+  </data>
+  <data name="BCPUsing" xml:space="preserve">
+    <value>使用BCP自表格取得資料</value>
+  </data>
+  <data name="AzureUserName" xml:space="preserve">
+    <value>SQL Database 要求在您的使用者名稱後面加上擴充名稱“{0}”。允許系統自動為您加上它嗎？</value>
+  </data>
+  <data name="AzureUserNameWarning" xml:space="preserve">
+    <value>SQL Database 使用者名稱需求</value>
+  </data>
+  <data name="SQLAzureCloudName" xml:space="preserve">
+    <value>database.windows.net</value>
+  </data>
+  <data name="ObjectTypeUDTT" xml:space="preserve">
+    <value>使用者定義的表格類型</value>
+  </data>
+  <data name="BCPCouldNotFind1" xml:space="preserve">
+    <value>SQL Database Migration Wizard 無法找到BCP輸出的記錄數，BCP指令與參數如下：</value>
+  </data>
+  <data name="BCPExpectedRegexMatch" xml:space="preserve">
+    <value>這些是通用運算式要搜尋的內容：</value>
+  </data>
+  <data name="BCPHereIsOutput" xml:space="preserve">
+    <value>這是BCP的輸出：</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="BCPProcessAborting" xml:space="preserve">
+    <value>正在中斷BCP上傳任務...</value>
+  </data>
+  <data name="BCPProcessFailed" xml:space="preserve">
+    <value> --&gt;抱歉，BCP上傳工作失敗了：</value>
+  </data>
+  <data name="BCPProcessingStatus" xml:space="preserve">
+    <value>正在處理{0}之{1}</value>
+  </data>
+  <data name="BCPTempFileDeleteFailed" xml:space="preserve">
+    <value> --&gt;刪除暫存的BCP檔案失敗。 錯誤 = {0}</value>
+  </data>
+  <data name="BCPUploadingData" xml:space="preserve">
+    <value> --&gt;上傳資料到{0}
+ --&gt; BCP指令： {1}</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>--&gt;錯誤</value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>錯誤... </value>
+  </data>
+  <data name="ErrorApplicationConfiguration" xml:space="preserve">
+    <value>應用程式組態錯誤...</value>
+  </data>
+  <data name="ErrorLanguageSectionNotFound" xml:space="preserve">
+    <value>抱歉，未能在{0}.config中找到適合的語系配置來分析BCP輸出，程式將無法處理。</value>
+  </data>
+  <data name="ErrorNumAndMsg" xml:space="preserve">
+    <value> --&gt;錯誤#: {0} -- {1}</value>
+  </data>
+  <data name="ProcessAborting" xml:space="preserve">
+    <value>錯誤#: {0} -- {1}
+{2}
+工作終止於{3} ...</value>
+  </data>
+  <data name="ProcessCanceledAt" xml:space="preserve">
+    <value>工作取消於{0} ...</value>
+  </data>
+  <data name="ProcessingFinished" xml:space="preserve">
+    <value>工作完成於{0} -- UTC -&gt; {1}
+工作共耗時：{2}</value>
+  </data>
+  <data name="ProcessStarted" xml:space="preserve">
+    <value>工作開始於{0} -- UTC -&gt; {1} ... </value>
+  </data>
+  <data name="SqlHelperValidParameter" xml:space="preserve">
+    <value>請提供一個合法的參數值 #{0}, 參數名稱屬性值為：'{1}'.</value>
+  </data>
+  <data name="TraceFileLine" xml:space="preserve">
+    <value>跟踪文件行 # {0} : </value>
+  </data>
+  <data name="ScriptOptionsGeneral" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="ScriptOptionsOverride" xml:space="preserve">
+    <value>覆寫：執行所有相容性檢查</value>
+  </data>
+  <data name="ScriptOptionsOverrideNot" xml:space="preserve">
+    <value>覆寫：不執行任何相容性檢查</value>
+  </data>
+  <data name="SOSCreate" xml:space="preserve">
+    <value>產生 CREATE</value>
+  </data>
+  <data name="SOSDefaults" xml:space="preserve">
+    <value>產生預設值</value>
+  </data>
+  <data name="SOSDefaultsDesc" xml:space="preserve">
+    <value>產生預設值。</value>
+  </data>
+  <data name="SOSDrop" xml:space="preserve">
+    <value>產生 DROP</value>
+  </data>
+  <data name="SOSDropCreate" xml:space="preserve">
+    <value>產生 DROP 和 CREATE</value>
+  </data>
+  <data name="SOSHeaders" xml:space="preserve">
+    <value>產生標頭</value>
+  </data>
+  <data name="SOSHeadersDesc" xml:space="preserve">
+    <value>為每個產生指令碼的物件產生標頭。</value>
+  </data>
+  <data name="SOSNotExists" xml:space="preserve">
+    <value>包含 If Not Exists</value>
+  </data>
+  <data name="SOSNotExistsDesc" xml:space="preserve">
+    <value>為包含 IF NOT EXISTS 選項的物件產生指令碼。</value>
+  </data>
+  <data name="ScriptOptionsTableData" xml:space="preserve">
+    <value>只有資料</value>
+  </data>
+  <data name="ScriptOptionsTableSchema" xml:space="preserve">
+    <value>只有資料表結構描述</value>
+  </data>
+  <data name="ScriptOptionsTableSchemaData" xml:space="preserve">
+    <value>資料庫結構描述與資料</value>
+  </data>
+  <data name="ScriptOptionsTableView" xml:space="preserve">
+    <value>表格/檢視表選項</value>
+  </data>
+  <data name="ScriptOptionsTSQLCompatibility" xml:space="preserve">
+    <value>TSQL 相容性檢查</value>
+  </data>
+  <data name="ScriptOptionsUseDefault" xml:space="preserve">
+    <value>使用預設組態</value>
+  </data>
+  <data name="SOSADSPDesc" xml:space="preserve">
+    <value>Active Directory 預存程序。</value>
+  </data>
+  <data name="SOSADSPDisplayName" xml:space="preserve">
+    <value>Active Directory 預存程序</value>
+  </data>
+  <data name="SOSAgentSPDesc" xml:space="preserve">
+    <value>SQL Server Agent 預存程序。</value>
+  </data>
+  <data name="SOSAgentSPDisplayName" xml:space="preserve">
+    <value>SQL Server Agent 預存程序</value>
+  </data>
+  <data name="SOSAgentTDesc" xml:space="preserve">
+    <value>SQL Server Agent 表格。</value>
+  </data>
+  <data name="SOSAgentTDisplayName" xml:space="preserve">
+    <value>SQL Server Agent 表格</value>
+  </data>
+  <data name="SOSBackupRestoreDesc" xml:space="preserve">
+    <value>備份與還原表格。</value>
+  </data>
+  <data name="SOSBackupRestoreDisplayName" xml:space="preserve">
+    <value>備份與還原表格</value>
+  </data>
+  <data name="SOSCatalogVDesc" xml:space="preserve">
+    <value>系統目錄檢視表。</value>
+  </data>
+  <data name="SOSCatalogVDisplayName" xml:space="preserve">
+    <value>系統目錄檢視表</value>
+  </data>
+  <data name="SOSCDCDesc" xml:space="preserve">
+    <value>變更資料捕捉預存程序。</value>
+  </data>
+  <data name="SOSCDCDisplayName" xml:space="preserve">
+    <value>變更資料捕捉</value>
+  </data>
+  <data name="SOSCDCTDesc" xml:space="preserve">
+    <value>變更資料捕捉表格。</value>
+  </data>
+  <data name="SOSCDCTDisplayName" xml:space="preserve">
+    <value>變更資料捕捉表格</value>
+  </data>
+  <data name="SOSCheckDesc" xml:space="preserve">
+    <value>為每個產生指令碼的表格或檢視表產生 CHECK 限制。</value>
+  </data>
+  <data name="SOSCheckDisplayName" xml:space="preserve">
+    <value>產生 CHECK 限制</value>
+  </data>
+  <data name="SOSCompatibilityDesc" xml:space="preserve">
+    <value>此設定允許您覆寫預設設定，強制相容性檢查並忽略相容性檢查或對單獨的 TSQL 進行檢查。</value>
+  </data>
+  <data name="SOSCompatibilityDisplayName" xml:space="preserve">
+    <value>相容性檢查</value>
+  </data>
+  <data name="SOSDBDCDesc" xml:space="preserve">
+    <value>資料控制。</value>
+  </data>
+  <data name="SOSDBDCDisplayName" xml:space="preserve">
+    <value>資料控制</value>
+  </data>
+  <data name="SOSDBEngineSPDesc" xml:space="preserve">
+    <value>数据库引擎存储过程</value>
+  </data>
+  <data name="SOSDBEngineSPDisplayName" xml:space="preserve">
+    <value>数据库引擎存储过程</value>
+  </data>
+  <data name="SOSDBMailSPDesc" xml:space="preserve">
+    <value>資料庫引擎預存程序。</value>
+  </data>
+  <data name="SOSDBMailSPDisplayName" xml:space="preserve">
+    <value>資料庫引擎預存程序</value>
+  </data>
+  <data name="SOSDBMaintDesc" xml:space="preserve">
+    <value>資料庫維護計劃。</value>
+  </data>
+  <data name="SOSDBMaintDisplayName" xml:space="preserve">
+    <value>資料庫維護計劃</value>
+  </data>
+  <data name="SOSDQSPDesc" xml:space="preserve">
+    <value>分散式查詢預存程序。</value>
+  </data>
+  <data name="SOSDQSPDisplayName" xml:space="preserve">
+    <value>分散式查詢預存程序</value>
+  </data>
+  <data name="SOSDropCreateDesc" xml:space="preserve">
+    <value>產生物件 CREATE / DROP 陳述式。</value>
+  </data>
+  <data name="SOSForeignKeysDesc" xml:space="preserve">
+    <value>為每個產生指令碼的資料表產生外鍵。</value>
+  </data>
+  <data name="SOSForeignKeysDisplayName" xml:space="preserve">
+    <value>產生外鍵</value>
+  </data>
+  <data name="SOSFTSSPDesc" xml:space="preserve">
+    <value>全文檢索預存程序。</value>
+  </data>
+  <data name="SOSFTSSPDisplayName" xml:space="preserve">
+    <value>全文檢索預存程序</value>
+  </data>
+  <data name="SOSGenExtSPDesc" xml:space="preserve">
+    <value>通用擴充的預存程序。</value>
+  </data>
+  <data name="SOSGenExtSPDisplayName" xml:space="preserve">
+    <value>通用擴充的預存程序</value>
+  </data>
+  <data name="SOSGenTSQLDesc" xml:space="preserve">
+    <value>一般 TSQL 檢查（推薦）。</value>
+  </data>
+  <data name="SOSGenTSQLDisplayName" xml:space="preserve">
+    <value>一般 TSQL</value>
+  </data>
+  <data name="SOSIndexesDesc" xml:space="preserve">
+    <value>為每個產生指令碼的表格和檢視表產生 CHECK 限制。</value>
+  </data>
+  <data name="SOSIndexesDisplayName" xml:space="preserve">
+    <value>產生索引</value>
+  </data>
+  <data name="SOSISTDesc" xml:space="preserve">
+    <value>Integration Services 資料表。</value>
+  </data>
+  <data name="SOSISTDisplayName" xml:space="preserve">
+    <value>Integration Services 資料表</value>
+  </data>
+  <data name="SOSLSDesc" xml:space="preserve">
+    <value>記錄檔傳送。</value>
+  </data>
+  <data name="SOSLSDisplayName" xml:space="preserve">
+    <value>記錄檔傳送</value>
+  </data>
+  <data name="SOSMailSPDesc" xml:space="preserve">
+    <value>SQL Mail 預存程序。</value>
+  </data>
+  <data name="SOSMailSPDisplayName" xml:space="preserve">
+    <value>SQL Mail 預存程序</value>
+  </data>
+  <data name="SOSMFDesc" xml:space="preserve">
+    <value>中介資料函數。</value>
+  </data>
+  <data name="SOSMFDisplayName" xml:space="preserve">
+    <value>中介資料函數</value>
+  </data>
+  <data name="SOSOLEDBDesc" xml:space="preserve">
+    <value>OLEDB 資料表。</value>
+  </data>
+  <data name="SOSOLEDBDisplayName" xml:space="preserve">
+    <value>OLEDB 資料表</value>
+  </data>
+  <data name="SOSOLESPDesc" xml:space="preserve">
+    <value>OLE 自動化預存程序。</value>
+  </data>
+  <data name="SOSOLESPDisplayName" xml:space="preserve">
+    <value>OLE 自動化預存程序</value>
+  </data>
+  <data name="SOSPrimaryKeysDesc" xml:space="preserve">
+    <value>為每個產生指令碼的表格產生主鍵。</value>
+  </data>
+  <data name="SOSPrimaryKeysDisplayName" xml:space="preserve">
+    <value>產生主鍵</value>
+  </data>
+  <data name="SOSProfilerSPDesc" xml:space="preserve">
+    <value>Profiler 預存程序。</value>
+  </data>
+  <data name="SOSProfilerSPDisplayName" xml:space="preserve">
+    <value>Profiler 預存程序</value>
+  </data>
+  <data name="SOSReplSPDesc" xml:space="preserve">
+    <value>Replication 預存程序。</value>
+  </data>
+  <data name="SOSReplSPDisplayName" xml:space="preserve">
+    <value>Replication 預存程序</value>
+  </data>
+  <data name="SOSReplTabDesc" xml:space="preserve">
+    <value>Replication 資料表。</value>
+  </data>
+  <data name="SOSReplTabDisplayName" xml:space="preserve">
+    <value>Replication 資料表</value>
+  </data>
+  <data name="SOSRowsetDesc" xml:space="preserve">
+    <value>資料列集合函數。</value>
+  </data>
+  <data name="SOSRowsetDisplayName" xml:space="preserve">
+    <value>資料列集合函數</value>
+  </data>
+  <data name="SOSSecurityDesc" xml:space="preserve">
+    <value>安全性函數。</value>
+  </data>
+  <data name="SOSSecurityDisplayName" xml:space="preserve">
+    <value>安全性函數</value>
+  </data>
+  <data name="SOSSecuritySPDesc" xml:space="preserve">
+    <value>安全性預存程序。</value>
+  </data>
+  <data name="SOSSecuritySPDisplayName" xml:space="preserve">
+    <value>安全性預存程序</value>
+  </data>
+  <data name="SOSSysFunDesc" xml:space="preserve">
+    <value>系統函數。</value>
+  </data>
+  <data name="SOSSysFunDisplayName" xml:space="preserve">
+    <value>系統函數</value>
+  </data>
+  <data name="SOSSysStatDesc" xml:space="preserve">
+    <value>系統統計函數。</value>
+  </data>
+  <data name="SOSSysStatDisplayName" xml:space="preserve">
+    <value>系統統計函數</value>
+  </data>
+  <data name="SOSTriggersDesc" xml:space="preserve">
+    <value>為每個產生指令碼的表格產生觸發程序。</value>
+  </data>
+  <data name="SOSTriggersDisplayName" xml:space="preserve">
+    <value>產生資料表觸發程序</value>
+  </data>
+  <data name="SOSUnclassifiedDesc" xml:space="preserve">
+    <value>未分類的。</value>
+  </data>
+  <data name="SOSUnclassifiedDisplayName" xml:space="preserve">
+    <value>未分類</value>
+  </data>
+  <data name="SOSUniqueKeysDesc" xml:space="preserve">
+    <value>為每個產生指令碼的表格產生唯一鍵。</value>
+  </data>
+  <data name="SOSUniqueKeysDisplayName" xml:space="preserve">
+    <value>產生唯一鍵</value>
+  </data>
+  <data name="ScriptOptionsTableDataDesc" xml:space="preserve">
+    <value>產生資料表結構，資料或是兩者都有。</value>
+  </data>
+  <data name="ScriptOptionsTableDataDisplayName" xml:space="preserve">
+    <value>產生資料表/資料</value>
+  </data>
+  <data name="LocalizedBCPCanNotFind" xml:space="preserve">
+    <value>抱歉，未能在{0}.config中找到適合的語系配置來分析BCP輸出，程式將無法處理。</value>
+  </data>
+  <data name="BCPUploadSummary" xml:space="preserve">
+    <value>BCP 上傳指令彙總</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="SMOScriptingError" xml:space="preserve">
+    <value>{0}  未被產生。錯誤訊息 = {1}</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="BCPOutputDirectoryNotFound" xml:space="preserve">
+    <value>無法瀏覽 BCP 的輸出目錄 [{0}]</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="BCPOutputSummary" xml:space="preserve">
+    <value>BCP輸出指令彙總：</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="ForiegnKeys" xml:space="preserve">
+    <value>外鍵...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="MessageCanceled" xml:space="preserve">
+    <value>已取消 !</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="MessageCanceledProcessing" xml:space="preserve">
+    <value>已在 {0} 取消處理 ...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="ScriptingObj" xml:space="preserve">
+    <value>產生指令碼 {0} ...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="BCPProcessingUpdate" xml:space="preserve">
+    <value>已複製 {0} 之 {1} ({2}%)</value>
+    <comment>v3.6.2</comment>
+  </data>
+  <data name="TimeHour" xml:space="preserve">
+    <value>小時</value>
+  </data>
+  <data name="TimeHours" xml:space="preserve">
+    <value>小時</value>
+  </data>
+  <data name="TimeMinute" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
+  <data name="TimeMinutes" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
+  <data name="TimeSecond" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="TimeSeconds" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="BCPMissingOutput" xml:space="preserve">
+    <value>遺失BCP輸出，命令：
+
+{0}
+
+表格 {1} 資料匯出未完成，請再重試一次，或是手動執行上面的指令。</value>
+    <comment>v3.6.3</comment>
+  </data>
+  <data name="DBConnect" xml:space="preserve">
+    <value>選擇“Master DB”可列出所有資料庫。
+選擇指定資料庫可對特定的資料庫進行操作。</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="DBConnectWarningTarget" xml:space="preserve">
+    <value>如果您選擇指定資料庫，您將無法建立新的資料庫，也不能刪除所指定的資料庫。</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageSpecifyDatabase" xml:space="preserve">
+    <value>抱歉，您需要選擇要檢查的資料庫</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageTitleConnectSource" xml:space="preserve">
+    <value>連接到來源伺服器</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageTitleConnectTarget" xml:space="preserve">
+    <value>連接到目標伺服器</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageUserName" xml:space="preserve">
+    <value>抱歉，請提供使用者名稱</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="NoSqlServers1" xml:space="preserve">
+    <value>網路上沒有找到 SQL Server</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="PerformanceWarning" xml:space="preserve">
+    <value>效能警示</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="PerformanceWarningAreYouSure" xml:space="preserve">
+    <value>強烈建議您不要選擇 "指定資料庫"，否則會影響效能。
+    
+您確定要這樣做嗎？</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="ServerNamesDoNotMatch" xml:space="preserve">
+    <value>使用者的伺服器名稱 {0} 應為 {1}.  需要自動修正嗎？</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="ServerType_SQLAzure" xml:space="preserve">
+    <value>SQL Database (雲端資料庫)</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="ServerType_SQLAzureFed" xml:space="preserve">
+    <value>SQL Database Federation (雲端資料庫)</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="ServerType_SQLServer" xml:space="preserve">
+    <value>SQL Server (本地端)</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="TargetServer" xml:space="preserve">
+    <value>目標伺服器</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="TargetServerDesc" xml:space="preserve">
+    <value>選擇目標伺服器</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="SOSScriptCollationDesc" xml:space="preserve">
+    <value>定序的指令碼。</value>
+    <comment>v3.7.8.1</comment>
+  </data>
+  <data name="SOSScriptCollationDisplayName" xml:space="preserve">
+    <value>定序的指令碼</value>
+    <comment>v3.7.8.1</comment>
+  </data>
+  <data name="FederationMemberInfo" xml:space="preserve">
+    <value>{0} on {1} member id = {2} range {3} </value>
+    <comment>v3.8.2</comment>
+  </data>
+  <data name="RetryLimitExceeded" xml:space="preserve">
+    <value>超過重試限制</value>
+    <comment>v3.8.2</comment>
+  </data>
+  <data name="ErrorParsingBCPArgs" xml:space="preserve">
+    <value>解析 bcpArgs 時發生錯誤</value>
+  </data>
+  <data name="DependencyCheckerFileNotFound" xml:space="preserve">
+    <value>找不到的依賴項檔。錯誤 = {0}</value>
+    <comment>3.9.11</comment>
+  </data>
+  <data name="ErrorMissingDependencies" xml:space="preserve">
+    <value>很抱歉，但缺少 {0} 的依賴項。
+
+錯誤訊息 = {1}。</value>
+    <comment>v3.9.11</comment>
+  </data>
+  <data name="FederationNotSupported" xml:space="preserve">
+    <value>在 SQL Server 中不支援 SQL Azure 聯邦物件。刪除 '{0}' 表 {1} 上的陳述。</value>
+  </data>
+</root>

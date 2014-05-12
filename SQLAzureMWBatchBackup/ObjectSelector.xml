@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<!--
+   Ok, the way this works is for each object type you have a script parameter where:
+   
+   true = yes, script this object type
+   false = no, do not script this object type
+   
+   Now, if you want to script only specific objects, then you can add the node
+   SQLObject and specify which one(s) you want to script or not to script.
+   The SQLObject node contains two property values:
+   
+   1) script = true means script objects where name is equal to text value
+             = false means do not script any objects where name is equal to text value
+   2) regex = true means that the text value is a regex expression
+            = false means that the text value is not a regex expression and we should look for an exact match
+
+   *** NOTE ***
+   As I go through the SQLObjects list, as soon as I find a match on a name, I return.
+   This means if you have something like this:
+        <SQLObjects>
+            <SQLObject script="true" regex="true" name=".*" />
+            <SQLObject script="false" regex="false" schema=".*" name="myTable" />
+        </SQLObjects>
+
+    In the above example myTable will never be filter out because it matches the first rule.  But if you reversed this:
+
+        <SQLObjects>
+            <SQLObject script="false" regex="false" schema=".*" name="myTable" />
+            <SQLObject script="true" regex="true" name=".*" />
+        </SQLObjects>
+
+    Then you would be saying script all tables except myTabel.  Note that schema is optional.  If you do not
+    include it in the SQLObject node, then it is ignored and only the name will be checked.
+-->
+<ObjectSelector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Roles script="true"></Roles>
+    <Views script="true"></Views>
+    <UserDefinedFunctions script="true"></UserDefinedFunctions>
+    <UserDefinedDataTypes script="true"></UserDefinedDataTypes>
+    <UserDefinedTableTypes script="true"></UserDefinedTableTypes>
+    <StoredProcedures script="true"></StoredProcedures>
+    <Triggers script="true"></Triggers>
+    <Schemas script="true"></Schemas>
+    <SchemaCollections script="false"></SchemaCollections>
+    <Tables script="true">
+        <SQLObjects>
+            <SQLObject script="true" regex="true" schema=".*" name=".*" />
+        </SQLObjects>
+    </Tables>
+</ObjectSelector>

@@ -1,0 +1,2783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="progressBarTargetServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 19</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCancelTargetProcessing.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbResultsScroll.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tvSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Name" xml:space="preserve">
+    <value>splitTargetServers</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeTraceFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Text" xml:space="preserve">
+    <value>TSQL File</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 32</value>
+  </data>
+  <data name="&gt;&gt;progressBarTargetServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabResultsSummary.Text" xml:space="preserve">
+    <value>Result Summary</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancelProcessing.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateTSQLFile.Name" xml:space="preserve">
+    <value>rbAnalyzeMigrateTSQLFile</value>
+  </data>
+  <data name="tvSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 54</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tvDatabaseObjects.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbMaintenance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 346</value>
+  </data>
+  <data name="btnConnectTargetServer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCreateDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbActionDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Run TSQL without Analyzing</value>
+  </data>
+  <data name="&gt;&gt;btnConnectTargetServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 32</value>
+  </data>
+  <data name="&gt;&gt;lbProgram.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="&gt;&gt;btnCancelProcessing.Name" xml:space="preserve">
+    <value>btnCancelProcessing</value>
+  </data>
+  <data name="tabResultsSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 29</value>
+  </data>
+  <data name="rtbTargetResults.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;progressBarGenScript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteDatabase.Parent" xml:space="preserve">
+    <value>panelTargetDatabase</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 159</value>
+  </data>
+  <data name="&gt;&gt;panelObjectTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tvDatabaseObjects.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tvDatabaseObjects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 86</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelFileToProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSourceFile.Name" xml:space="preserve">
+    <value>tbSourceFile</value>
+  </data>
+  <data name="btnDeleteDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 203</value>
+  </data>
+  <data name="btnRetry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 172</value>
+  </data>
+  <data name="&gt;&gt;rbRunTSQLFile.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
+  <data name="&gt;&gt;rtbTargetResults.Name" xml:space="preserve">
+    <value>rtbTargetResults</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteDatabase.Name" xml:space="preserve">
+    <value>btnDeleteDatabase</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbTargetDatabases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 184</value>
+  </data>
+  <data name="panelFileToProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnCancelProcessing.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabSQLScript.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnConnectToServer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSelectAll.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabCtlUploadStatus.Name" xml:space="preserve">
+    <value>tabCtlUploadStatus</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel2.Name" xml:space="preserve">
+    <value>splitTargetServers.Panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabCtlResults.Parent" xml:space="preserve">
+    <value>panelResultsSummary</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="gbSelectFederation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Parent" xml:space="preserve">
+    <value>panelObjectTypes</value>
+  </data>
+  <data name="&gt;&gt;lbActionDesc.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="lbSourceFederations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="&gt;&gt;panelFileToProcess.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>File to Process</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClearAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 32</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Parent" xml:space="preserve">
+    <value>panelDatabaseSource</value>
+  </data>
+  <data name="lbFederationMembers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="splitTargetServers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gbSelectDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelDatabaseSource.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 9</value>
+  </data>
+  <data name="lbTargetDatabases.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 59</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnCancelTargetProcessing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;progressBarGenScript.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnFindFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 5</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 163</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 91</value>
+  </data>
+  <data name="rtbSQLScript.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 21</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteDatabase.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="&gt;&gt;tabCtlUploadStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbAzureStatusScroll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnClearAll.Parent" xml:space="preserve">
+    <value>panelObjectTypes</value>
+  </data>
+  <data name="&gt;&gt;lbAction.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Server Maintenance</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel1.Name" xml:space="preserve">
+    <value>splitTargetServers.Panel1</value>
+  </data>
+  <data name="tvSummary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ScriptWizard</value>
+  </data>
+  <data name="rbScriptAll.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;rbScriptAll.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnNext.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panelTargetDatabase.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;panelTreeViewSummary.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rtbSQLScript.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbAction.Name" xml:space="preserve">
+    <value>lbAction</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Analyze / Migrate</value>
+  </data>
+  <data name="btnNext.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabCtlUploadStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 58</value>
+  </data>
+  <data name="rtbResultsSummary.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gbSelectFederation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lbAction.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel2.Parent" xml:space="preserve">
+    <value>splitDBDisplay</value>
+  </data>
+  <data name="&gt;&gt;lbFederations.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbAction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbResultsScroll.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnDeleteDatabase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tabSQLScript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTargetResults.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="rbRunTSQLFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabCtlResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 60</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;lbProgram.Name" xml:space="preserve">
+    <value>lbProgram</value>
+  </data>
+  <data name="&gt;&gt;btnConnectTargetServer.Name" xml:space="preserve">
+    <value>btnConnectTargetServer</value>
+  </data>
+  <data name="splitTargetServers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 10</value>
+  </data>
+  <data name="tabResultsSummary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panelTargetResults.Name" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="gbSelectFederationMembers.Text" xml:space="preserve">
+    <value>Select Federation Members</value>
+  </data>
+  <data name="lbDatabases.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="progressBarTargetServer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="cbAzureStatusScroll.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rtbTargetResults.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnFindFile.Text" xml:space="preserve">
+    <value>Browse ...</value>
+  </data>
+  <data name="lbAction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panelWizardOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbRunTSQLFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnFindFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;rtbResultsSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rtbResultsSummary.Parent" xml:space="preserve">
+    <value>tabResultsSummary</value>
+  </data>
+  <data name="splitTargetServers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 184</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCancelTargetProcessing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lbAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 15</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tvSummary.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbResultsScroll.Text" xml:space="preserve">
+    <value>Auto Scroll Display</value>
+  </data>
+  <data name="lbResultsSummaryStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbAction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelFileToProcess.Name" xml:space="preserve">
+    <value>panelFileToProcess</value>
+  </data>
+  <data name="&gt;&gt;panelObjectTypes.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="&gt;&gt;panelResultsSummary.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnCancelProcessing.Parent" xml:space="preserve">
+    <value>panelResultsSummary</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTargetResults.Name" xml:space="preserve">
+    <value>btnSaveTargetResults</value>
+  </data>
+  <data name="lbSourceFederations.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnCancelTargetProcessing.Name" xml:space="preserve">
+    <value>btnCancelTargetProcessing</value>
+  </data>
+  <data name="lbActionDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabCtlResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbSourceFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 26</value>
+  </data>
+  <data name="&gt;&gt;rtbSQLScript.Name" xml:space="preserve">
+    <value>rtbSQLScript</value>
+  </data>
+  <data name="lbFederationMembers.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="panelFileToProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 378</value>
+  </data>
+  <data name="&gt;&gt;panelTargetDatabase.Name" xml:space="preserve">
+    <value>panelTargetDatabase</value>
+  </data>
+  <data name="rtbSQLScript.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBack.Text" xml:space="preserve">
+    <value>&lt; Back</value>
+  </data>
+  <data name="lbTargetDatabases.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="rbSpecificObjects.Text" xml:space="preserve">
+    <value>Select specific database objects</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbSourceFederations.Name" xml:space="preserve">
+    <value>lbSourceFederations</value>
+  </data>
+  <data name="tabCtlUploadStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 96</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 18</value>
+  </data>
+  <data name="tvDatabaseObjects.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 24</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbFederationMembers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 157</value>
+  </data>
+  <data name="btnFindFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="gbSelectFederation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lbStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>424, 23</value>
+  </data>
+  <data name="tabCtlResults.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;progressBarTargetServer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnFindFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Name" xml:space="preserve">
+    <value>splitDBDisplay</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabCtlResults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;rtbResultsSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindFile.Parent" xml:space="preserve">
+    <value>panelFileToProcess</value>
+  </data>
+  <data name="panelWizardOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 12</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbRunTSQLFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 524</value>
+  </data>
+  <data name="&gt;&gt;lbTargetDatabases.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbFederations.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rtbSQLScript.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancelTargetProcessing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 32</value>
+  </data>
+  <data name="gbSelectDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 112</value>
+  </data>
+  <data name="lbTargetDatabases.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;panelObjectTypes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbSelectDatabase.Name" xml:space="preserve">
+    <value>gbSelectDatabase</value>
+  </data>
+  <data name="&gt;&gt;btnFindFile.Name" xml:space="preserve">
+    <value>btnFindFile</value>
+  </data>
+  <data name="progressBarGenScript.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tabResults.Text" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="btnClearAll.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;panelResultsSummary.Name" xml:space="preserve">
+    <value>panelResultsSummary</value>
+  </data>
+  <data name="rtbResultsSummary.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Script Wizard</value>
+  </data>
+  <data name="&gt;&gt;rtbSQLScript.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbResultsScroll.Parent" xml:space="preserve">
+    <value>panelResultsSummary</value>
+  </data>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 172</value>
+  </data>
+  <data name="btnSaveTargetResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 172</value>
+  </data>
+  <data name="rbMaintenance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSelectAll.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="lbActionDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 18</value>
+  </data>
+  <data name="&gt;&gt;tabResults.Name" xml:space="preserve">
+    <value>tabResults</value>
+  </data>
+  <data name="tbSourceFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabSQLScript.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="btnCreateDatabase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbScriptAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="btnCreateDatabase.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;panelTreeViewSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel2.Name" xml:space="preserve">
+    <value>splitDBDisplay.Panel2</value>
+  </data>
+  <data name="lbStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lbProgram.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gbSelectFederationMembers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateDatabase.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnConnectToServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 32</value>
+  </data>
+  <data name="&gt;&gt;progressBarTargetServer.Name" xml:space="preserve">
+    <value>progressBarTargetServer</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateTSQLFile.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnSelectAll.Parent" xml:space="preserve">
+    <value>panelObjectTypes</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbAzureStatusScroll.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbSourceFederations.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClearAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSaveTargetResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 32</value>
+  </data>
+  <data name="tabCtlUploadStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lbDatabases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="lbProgram.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Analyze Only</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbAction.Text" xml:space="preserve">
+    <value>Select Database</value>
+  </data>
+  <data name="&gt;&gt;cbAzureStatusScroll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbDatabases.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 85</value>
+  </data>
+  <data name="&gt;&gt;lbStatus.Name" xml:space="preserve">
+    <value>lbStatus</value>
+  </data>
+  <data name="lbDatabases.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="tbSourceFile.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederationMembers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabSQLScript.Parent" xml:space="preserve">
+    <value>tabCtlResults</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTreeViewSummary.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="btnCreateDatabase.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbResultsSummaryStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;lbProgram.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnDeleteDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 32</value>
+  </data>
+  <data name="rbRunTSQLFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSourceFederations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="btnSaveTargetResults.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;lbResultsSummaryStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDeleteDatabase.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="lbDatabases.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="rbMaintenance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelFileToProcess</value>
+  </data>
+  <data name="panelObjectTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 200</value>
+  </data>
+  <data name="rtbResultsSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 21</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeTraceFile.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lbTargetDatabases.Parent" xml:space="preserve">
+    <value>splitTargetServers.Panel2</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbResultsSummaryStatus.Text" xml:space="preserve">
+    <value>dd</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;panelResultsSummary.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="btnSelectAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnCancelProcessing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 159</value>
+  </data>
+  <data name="&gt;&gt;tvSummary.Parent" xml:space="preserve">
+    <value>panelTreeViewSummary</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederationMembers.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;rbMaintenance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabResultsSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSaveTargetResults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>582, 583</value>
+  </data>
+  <data name="&gt;&gt;btnSkip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 240</value>
+  </data>
+  <data name="&gt;&gt;btnConnectTargetServer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbActionDesc.Name" xml:space="preserve">
+    <value>lbActionDesc</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 91</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Select Federation</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbMaintenance.Name" xml:space="preserve">
+    <value>rbMaintenance</value>
+  </data>
+  <data name="rtbSQLScript.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnSkip.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="btnSkip.Text" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="&gt;&gt;rtbTargetResults.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRetry.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lbProgram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbSpecificObjects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 22</value>
+  </data>
+  <data name="rbSpecificObjects.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbActionDesc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="lbResultsSummaryStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-85, 64</value>
+  </data>
+  <data name="btnConnectToServer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panelFileToProcess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lbProgram.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lbFederations.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFindFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbRunTSQLFile.Name" xml:space="preserve">
+    <value>rbRunTSQLFile</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="panelObjectTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 32</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="panelResultsSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 200</value>
+  </data>
+  <data name="&gt;&gt;lbSourceFederations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTargetResults.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="splitDBDisplay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSelectAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="cbAzureStatusScroll.Text" xml:space="preserve">
+    <value>Auto Scroll Display</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 18</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbAzureStatusScroll.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="progressBarGenScript.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 19</value>
+  </data>
+  <data name="&gt;&gt;btnClearAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rtbTargetResults.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbResultsScroll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCreateDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 203</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="&gt;&gt;tabSQLScript.Name" xml:space="preserve">
+    <value>tabSQLScript</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tvDatabaseObjects.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbFederationMembers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 18</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.Parent" xml:space="preserve">
+    <value>gbSelectDatabase</value>
+  </data>
+  <data name="gbSelectDatabase.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabSQLScript.Text" xml:space="preserve">
+    <value>SQL Script</value>
+  </data>
+  <data name="btnSelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 32</value>
+  </data>
+  <data name="&gt;&gt;panelTargetDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCtlResults.Name" xml:space="preserve">
+    <value>tabCtlResults</value>
+  </data>
+  <data name="panelWizardOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="splitTargetServers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>This wizard gives you the options to analyzes, generate scripts, and migrate database schemas and data from:
+
+1) SQL Server to Azure SQL Database.
+2) Azure SQL Database to SQL Server
+3) Azure SQL Database to Azure SQL Database
+
+It will also analyze SQL Profiler trace files and TSQL script for compatibility issues with Azure SQL Database.
+
+NOTE: You must be DB Owner in order to analyze or migrate a database.</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDeleteDatabase.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbAzureStatusScroll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbSourceFederations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 85</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="btnClearAll.Text" xml:space="preserve">
+    <value>Deselect All</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbSourceFile.Parent" xml:space="preserve">
+    <value>panelFileToProcess</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnConnectTargetServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 32</value>
+  </data>
+  <data name="btnConnectToServer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;panelTargetDatabase.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelTargetResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 15</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 260</value>
+  </data>
+  <data name="panelWizardOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="panelDatabaseSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 170</value>
+  </data>
+  <data name="panelResultsSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 183</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>splitTargetServers.Panel1</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClearAll.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnCancelProcessing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 32</value>
+  </data>
+  <data name="&gt;&gt;lbAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSkip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="splitDBDisplay.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rtbTargetResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="rtbResultsSummary.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 69</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabCtlUploadStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnRetry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbSpecificObjects.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tvSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelObjectTypes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnConnectToServer.Text" xml:space="preserve">
+    <value>Connect to Server</value>
+  </data>
+  <data name="&gt;&gt;lbTargetDatabases.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabResults.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lbFederations.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;panelResultsSummary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBarTargetServer.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="&gt;&gt;rbMaintenance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSelectAll.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbRunTSQLFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="&gt;&gt;rbScriptAll.Parent" xml:space="preserve">
+    <value>panelObjectTypes</value>
+  </data>
+  <data name="rbScriptAll.Text" xml:space="preserve">
+    <value>Script all database objects</value>
+  </data>
+  <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="panelFileToProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>544, 76</value>
+  </data>
+  <data name="btnClearAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 150</value>
+  </data>
+  <data name="&gt;&gt;lbFederations.Parent" xml:space="preserve">
+    <value>gbSelectFederation</value>
+  </data>
+  <data name="btnConnectToServer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabResults.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel2.Parent" xml:space="preserve">
+    <value>splitTargetServers</value>
+  </data>
+  <data name="&gt;&gt;rtbResultsSummary.Name" xml:space="preserve">
+    <value>rtbResultsSummary</value>
+  </data>
+  <data name="tvDatabaseObjects.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbTargetDatabases.Name" xml:space="preserve">
+    <value>lbTargetDatabases</value>
+  </data>
+  <data name="lbFederationMembers.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbAzureStatusScroll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panelTargetDatabase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTargetResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;lbResultsSummaryStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tvDatabaseObjects.Name" xml:space="preserve">
+    <value>tvDatabaseObjects</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 184</value>
+  </data>
+  <data name="&gt;&gt;rbSpecificObjects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 194</value>
+  </data>
+  <data name="&gt;&gt;cbResultsScroll.Name" xml:space="preserve">
+    <value>cbResultsScroll</value>
+  </data>
+  <data name="&gt;&gt;rbSpecificObjects.Name" xml:space="preserve">
+    <value>rbSpecificObjects</value>
+  </data>
+  <data name="rtbResultsSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbRunTSQLFile.Text" xml:space="preserve">
+    <value>TSQL File</value>
+  </data>
+  <data name="&gt;&gt;panelDatabaseSource.Name" xml:space="preserve">
+    <value>panelDatabaseSource</value>
+  </data>
+  <data name="tabResultsSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="splitDBDisplay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="splitDBDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 112</value>
+  </data>
+  <data name="lbProgram.Text" xml:space="preserve">
+    <value>SQLAzureMW v2.0</value>
+  </data>
+  <data name="&gt;&gt;panelWizardOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbSourceFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Parent" xml:space="preserve">
+    <value>panelTargetDatabase</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 18</value>
+  </data>
+  <data name="&gt;&gt;btnSelectAll.Name" xml:space="preserve">
+    <value>btnSelectAll</value>
+  </data>
+  <data name="btnFindFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelDatabaseSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 4</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel1.Parent" xml:space="preserve">
+    <value>splitDBDisplay</value>
+  </data>
+  <data name="cbAzureStatusScroll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 180</value>
+  </data>
+  <data name="&gt;&gt;panelWizardOptions.Name" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="panelResultsSummary.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;rtbTargetResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancelTargetProcessing.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progressBarGenScript.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 35</value>
+  </data>
+  <data name="&gt;&gt;gbSelectDatabase.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbActionDesc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbSpecificObjects.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 32</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 57</value>
+  </data>
+  <data name="rbMaintenance.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbStatus.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabResultsSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnConnectToServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateDatabase.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="btnSaveTargetResults.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnSelectAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 150</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="btnSkip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tabResults.Parent" xml:space="preserve">
+    <value>tabCtlUploadStatus</value>
+  </data>
+  <data name="&gt;&gt;btnSkip.Name" xml:space="preserve">
+    <value>btnSkip</value>
+  </data>
+  <data name="lbStatus.Text" xml:space="preserve">
+    <value>dd</value>
+  </data>
+  <data name="tbSourceFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 35</value>
+  </data>
+  <data name="&gt;&gt;lbFederationMembers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnConnectToServer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.Panel1.Name" xml:space="preserve">
+    <value>splitDBDisplay.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tvSummary.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rtbSQLScript.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnCancelProcessing.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSaveTargetResults.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancelTargetProcessing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 172</value>
+  </data>
+  <data name="gbSelectFederation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbFederationMembers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelObjectTypes.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabCtlResults.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tabSQLScript.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 29</value>
+  </data>
+  <data name="&gt;&gt;panelDatabaseSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelFileToProcess.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="&gt;&gt;btnCancelProcessing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="&gt;&gt;lbFederations.Name" xml:space="preserve">
+    <value>lbFederations</value>
+  </data>
+  <data name="&gt;&gt;btnConnectToServer.Parent" xml:space="preserve">
+    <value>panelDatabaseSource</value>
+  </data>
+  <data name="btnSkip.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cbResultsScroll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabSQLScript.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panelDatabaseSource.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 18</value>
+  </data>
+  <data name="tabResultsSummary.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;panelTargetResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel1.Parent" xml:space="preserve">
+    <value>splitTargetServers</value>
+  </data>
+  <data name="rtbTargetResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>407, 19</value>
+  </data>
+  <data name="tabResults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lbResultsSummaryStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tabResultsSummary.Name" xml:space="preserve">
+    <value>tabResultsSummary</value>
+  </data>
+  <data name="tabCtlResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 91</value>
+  </data>
+  <data name="gbSelectFederationMembers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbResultsScroll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lbFederations.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="gbSelectDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="btnAdvanced.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 99</value>
+  </data>
+  <data name="btnConnectTargetServer.Text" xml:space="preserve">
+    <value>Connect to Server</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;rbScriptAll.Name" xml:space="preserve">
+    <value>rbScriptAll</value>
+  </data>
+  <data name="panelTargetDatabase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 237</value>
+  </data>
+  <data name="btnSkip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 172</value>
+  </data>
+  <data name="tabResultsSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbMaintenance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="lbFederationMembers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cbResultsScroll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="gbSelectFederationMembers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCancelTargetProcessing.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="&gt;&gt;rbSpecificObjects.Parent" xml:space="preserve">
+    <value>panelObjectTypes</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbSourceFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabCtlUploadStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbSpecificObjects.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabCtlUploadStatus.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnCancelTargetProcessing.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;lbFederationMembers.Parent" xml:space="preserve">
+    <value>gbSelectFederationMembers</value>
+  </data>
+  <data name="btnAdvanced.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="rbScriptAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnRetry.Name" xml:space="preserve">
+    <value>btnRetry</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnClearAll.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;panelDatabaseSource.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;btnClearAll.Name" xml:space="preserve">
+    <value>btnClearAll</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederationMembers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateDatabase.Name" xml:space="preserve">
+    <value>rbAnalyzeMigrateDatabase</value>
+  </data>
+  <data name="btnConnectTargetServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 203</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gbSelectDatabase.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnAdvanced.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="cbAzureStatusScroll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lbDatabases.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="splitTargetServers.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lbFederationMembers.Name" xml:space="preserve">
+    <value>lbFederationMembers</value>
+  </data>
+  <data name="rbSpecificObjects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 53</value>
+  </data>
+  <data name="btnEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="splitDBDisplay.SplitterDistance" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;tbSourceFile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelFileToProcess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="rtbTargetResults.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>413, 27</value>
+  </data>
+  <data name="btnCancelProcessing.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;lbActionDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRetry.Text" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="lbActionDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 41</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateDatabase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelFileToProcess.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnConnectToServer.Name" xml:space="preserve">
+    <value>btnConnectToServer</value>
+  </data>
+  <data name="&gt;&gt;cbAzureStatusScroll.Name" xml:space="preserve">
+    <value>cbAzureStatusScroll</value>
+  </data>
+  <data name="btnRetry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 32</value>
+  </data>
+  <data name="progressBarGenScript.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnRetry.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="panelWizardOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 476</value>
+  </data>
+  <data name="panelTargetResults.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="splitTargetServers.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbSourceFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="rtbSQLScript.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="rbScriptAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbActionDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbSelectFederation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 184</value>
+  </data>
+  <data name="tabCtlUploadStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lbAction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="progressBarGenScript.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gbSelectFederation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="panelDatabaseSource.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lbSourceFederations.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbResultsScroll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rtbSQLScript.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rbAnalyzeTraceFile.Name" xml:space="preserve">
+    <value>rbAnalyzeTraceFile</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSaveTargetResults.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="lbTargetDatabases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="rtbSQLScript.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCreateDatabase.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tvSummary.Name" xml:space="preserve">
+    <value>tvSummary</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederation.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="btnNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 14</value>
+  </data>
+  <data name="&gt;&gt;rtbSQLScript.Parent" xml:space="preserve">
+    <value>tabSQLScript</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.Name" xml:space="preserve">
+    <value>btnAdvanced</value>
+  </data>
+  <data name="btnDeleteDatabase.Text" xml:space="preserve">
+    <value>Delete Database</value>
+  </data>
+  <data name="cbResultsScroll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 161</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="btnSkip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 32</value>
+  </data>
+  <data name="&gt;&gt;lbFederationMembers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Text" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederationMembers.Name" xml:space="preserve">
+    <value>gbSelectFederationMembers</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbAnalyzeTraceFile.Text" xml:space="preserve">
+    <value>SQL Profiler Trace File</value>
+  </data>
+  <data name="btnCancelProcessing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;rbRunTSQLFile.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnFindFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 32</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 316</value>
+  </data>
+  <data name="rtbResultsSummary.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tabSQLScript.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 112</value>
+  </data>
+  <data name="&gt;&gt;lbFederations.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitDBDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tvDatabaseObjects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 45</value>
+  </data>
+  <data name="btnConnectTargetServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panelTargetResults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabCtlResults.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 133</value>
+  </data>
+  <data name="btnFindFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 32</value>
+  </data>
+  <data name="&gt;&gt;btnNext.Name" xml:space="preserve">
+    <value>btnNext</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeTraceFile.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>panelResultsSummary</value>
+  </data>
+  <data name="rtbTargetResults.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateTSQLFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progressBarTargetServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="progressBarTargetServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>418, 35</value>
+  </data>
+  <data name="&gt;&gt;tvDatabaseObjects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbAzureStatusScroll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="gbSelectDatabase.Text" xml:space="preserve">
+    <value>Select Database</value>
+  </data>
+  <data name="gbSelectFederationMembers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 184</value>
+  </data>
+  <data name="btnCancelProcessing.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="splitTargetServers.SplitterDistance" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="lbResultsSummaryStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 23</value>
+  </data>
+  <data name="&gt;&gt;tabResults.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelTreeViewSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 54</value>
+  </data>
+  <data name="rbMaintenance.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnRetry.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbMaintenance.Text" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="rbAnalyzeMigrateTSQLFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelObjectTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 391</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbStatus.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tvDatabaseObjects.Parent" xml:space="preserve">
+    <value>panelObjectTypes</value>
+  </data>
+  <data name="rbRunTSQLFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelTargetDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 251</value>
+  </data>
+  <data name="btnAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 150</value>
+  </data>
+  <data name="cbResultsScroll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="btnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbSpecificObjects.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCancelTargetProcessing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="&gt;&gt;lbDatabases.Name" xml:space="preserve">
+    <value>lbDatabases</value>
+  </data>
+  <data name="&gt;&gt;panelWizardOptions.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="panelTreeViewSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 496</value>
+  </data>
+  <data name="btnClearAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNext.Text" xml:space="preserve">
+    <value>Next &gt;</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRetry.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>575, 431</value>
+  </data>
+  <data name="lbProgram.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbSourceFederations.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="progressBarGenScript.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbSourceFederations.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="panel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbSelectFederationMembers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnFindFile.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbResultsSummary.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="gbSelectDatabase.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnAdvanced.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressBarGenScript.Name" xml:space="preserve">
+    <value>progressBarGenScript</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConnectTargetServer.Parent" xml:space="preserve">
+    <value>panelTargetDatabase</value>
+  </data>
+  <data name="tvSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;rbScriptAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>splitDBDisplay.Panel1</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 14</value>
+  </data>
+  <data name="gbSelectFederationMembers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;progressBarGenScript.Parent" xml:space="preserve">
+    <value>panelResultsSummary</value>
+  </data>
+  <data name="&gt;&gt;panelTreeViewSummary.Name" xml:space="preserve">
+    <value>panelTreeViewSummary</value>
+  </data>
+  <data name="splitDBDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnCreateDatabase.Text" xml:space="preserve">
+    <value>Create Database</value>
+  </data>
+  <data name="rbRunTSQLFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 271</value>
+  </data>
+  <data name="panelTreeViewSummary.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbMaintenance.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="tabSQLScript.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="panelResultsSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnCreateDatabase.Name" xml:space="preserve">
+    <value>btnCreateDatabase</value>
+  </data>
+  <data name="&gt;&gt;splitTargetServers.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabResultsSummary.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lbResultsSummaryStatus.Parent" xml:space="preserve">
+    <value>panelResultsSummary</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSkip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelectAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progressBarTargetServer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 32</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 18</value>
+  </data>
+  <data name="btnNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;rtbTargetResults.Parent" xml:space="preserve">
+    <value>tabResults</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="panelTreeViewSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;rbAnalyzeMigrateTSQLFile.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="lbDatabases.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lbResultsSummaryStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbProgram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 50</value>
+  </data>
+  <data name="lbFederations.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 157</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODdhtQCEAOfXAAAAADMAAGYAAJkAAMwAAP8AAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZmAJlm
+        AMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAAD/ADP/AGb/AJn/AMz/AP//
+        AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xmM/9mMwCZMzOZ
+        M2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMwD/MzP/M2b/M5n/M8z/M///MwAAZjMAZmYAZpkA
+        ZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZv9mZgCZZjOZZmaZZpmZZsyZZv+Z
+        ZgDMZjPMZmbMZpnMZszMZv/MZgD/ZjP/Zmb/Zpn/Zsz/Zv//ZgAAmTMAmWYAmZkAmcwAmf8AmQAzmTMz
+        mWYzmZkzmcwzmf8zmQBmmTNmmWZmmZlmmcxmmf9mmQCZmTOZmWaZmZmZmcyZmf+ZmQDMmTPMmWbMmZnM
+        mczMmf/MmQD/mTP/mWb/mZn/mcz/mf//mQAAzDMAzGYAzJkAzMwAzP8AzAAzzDMzzGYzzJkzzMwzzP8z
+        zABmzDNmzGZmzJlmzMxmzP9mzACZzDOZzGaZzJmZzMyZzP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/
+        zGb/zJn/zMz/zP//zAAA/zMA/2YA/5kA/8wA//8A/wAz/zMz/2Yz/5kz/8wz//8z/wBm/zNm/2Zm/5lm
+        /8xm//9m/wCZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM/zPM/2bM/5nM/8zM///M/wD//zP//2b//5n//8z/////
+        /////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCADYACwAAAAAtQCEAAAI/gCvCRxIsKDBgwgTKlzIsKHDhxAj
+        SpxIsaLFixgzatzIsaPHjyBDihxZ0MqKFYFYkVzJsmXGk6wCBVqh0qXNmzgNrrBCcGbOn0BX+iwZKKjR
+        oxtXIASAtKnTiFZ4Hgwk9anVqwVpImSlFKtXq1QVWin6tezRsQqHml2LkytDrWzjtgy7EK3cuyPtpq2K
+        t29Hpg0B+x2c0W1DuIQTU6TLkLHixw8RL3QMubJCwYEta05o2KHkzaAp1yULurTovaVTf17YObVmzA5h
+        uw45q5XtVrNGyn5bMyTuVtdya26VqNWj2sSFezw92nei2siVP55VHDp03B+Zo/4YHff1yomK/j+yHfw3
+        q/Mc9T7UbpG6+2vAvysm/hx4cIG4uwDYvzPlxdUMtUZRTCbtB4Ag1dk3SzTQTZegcr/ZJ1OBKJEWEYAM
+        7dYQgfuNRRZ1xAW3oIjkzRfebwvm9ptBBK4AgBW9xUaRhpzN9KJ/BiUyHm4MwgdfIg7W1yCKCrFiBQA7
+        xXgZRRgWFJOLKClE3YPw1TYeZOE9iFt1DVGFpIVT8QWRemHe6FCWKP72HGT0JUfclhHZSOZAAj40p0BG
+        fqnkQvQVV99zQFbWZ3LFDWjSTgaxt11PLsJIEX0gnmhfZbWhKd1ijfamKGddCVQgmBNNmeWaqlmzUZ5R
+        3tklT1whuadF/lesONumET3p4quxuYjjRoFwMVtBXYCaUSD7Ccuarh8Z+atOuP5no7GJ6kqjRXUue02T
+        FQE2E0rNbksWtkw2+yu4EmHmbbTcDkTuheIu6+hGstlYU6ugrmsntNZew1W7D1V7DbEnAWCsvYfhm6++
+        717k7zVHvogrrYfxe7CRBm/YKUFHKpWnmAJBXCTBB6va78X/ukpQnmB6vBXJBzcUlUWMcRXlVDANJHKX
+        LLfscsK1anwkxwb9rJLKBVElsc7RLjaWyRbfCPTOSFc009EY70c1nVBKxFXFURcpcL9CVxS2Q1t3jRGi
+        jSH5ckUyf90YyGYnZFKzKP/7NNlKbStu/pJxazSTsAAPRLSTnR4J+Mx9ayTzycjazHVCjumNMdyJu/w1
+        sRwPzniiX7PicOXZueh20XdbfFDbj4MukY0Aao716aKnrrqdL5YM6s2NZd7557NjJHNvv/dUeoAXB4/n
+        3L3DPHpPo7uOZ6fEAr588nYizuJJRTmvr8Y1rzw89VnlzHlUskcbvcuUV+7593T+rDzBf4MPufUOZXz1
+        87X3XH7cU09Elfu0+99EuMK+xCHPf6wyXNq0IhOxiU91axtQpzyHIeMxrIAIUUvy6Kc1kmEuRiiLkfb+
+        lb5f4c50TjKcSsbWk/1d737jcmGiniaz7gUNgx8D3b4UJz7WcdBT/jI8SAk1M8SDyIZeHWMaQYrIrLgx
+        0SCYQWLRlHgtGC7kiX4xkhUXAhh6dYtpWDwZDi1zwomgRFcSyxixkvXA1DTQIxQcIwkBsMXJyJEwC5Ma
+        lGTouS8tJ4h4aeNEPkUxCc5xVy+po1zKuKGfkcZ1nWkVz6h1x0AOK1OkU1oK/YiRSW7mjYbSE+w0STPe
+        kVI1VjQSJjlFkZuhypMycg3InmQm4oVrVWpDz0Om9RiT4BJ7EeFlQkBGlT3ya42z4ZuTZGLMW5ZrQF7q
+        z6uIpUi2oGonJ4ESIxVCuTySLZonORQVfxWTclaTKB3syHlSokv5QWRwI3RnRwa3TXmSxJtC1TynPeH1
+        zH0iZZaC9GdL6hlPgQ4Lh/U0KEhUFkaFWkSYBIGoQ0dir4JOFGYFtOhFT3lFfW40W7H8aE5OqFGRru57
+        CTXpqQIqUZV+5IeCC6hLF1q6lM5UI51Kk0BketOPjAU59cFNSXsKtvBEpzaCuBRRWVIc78AnQku1yZRq
+        c5/rKDWqIfETVXPDIFlhlSRG5ZFAZlGpr7LkTd5JEZHMOhLq7MiqIWIrWMUToffIta0nomt47srUvJKK
+        ryshK3YAS9jCGvawiE2sYhfL2MY69rGQxUtAAAAh+QQFCADYACwoABkAbABgAAAI/gCvCRxIsKDBgwgR
+        YlvIsKHDhwkjSpxI8eCsVokwtpo166HHjyA/VhxJsmTGRxcvbgzJsmXDkjBJsgrEambDixlTbsTosmfI
+        mEAjsgJAtGhRbIISpcS2UafPp1CfGi26gtVEK1YOlsKWKGcrghsTRR1L1qPBmQACRbSiNmHGRNe+xuXY
+        amXZuz4nBsqacEVbhF1TzhK4UyzewyJHDo1YNaJGlReZzjKMuDLQFRED/bUYeGfKjJURB90rlG9CjF6V
+        gg5dNuhAK1bXxj7dVXXdjqyhuibICnPBj6xavrWbu7hL2AaNK1/e0IpPzcyjt+yIW7r13BrfVr/OnWxn
+        nYG6/ouHmtFz4fHoW2IUHI3u5PTwPXbdORByq/j4F37HNrh95Pz4abeRf2EBGKBXHd1XF2UGojcZgjs9
+        cl+D8CUl4FsU4vfgeqtliN+CHHko4ogklmjiiSimqOKKLLbo4oswxijjjDTWaOONOOao44489ujjj0AG
+        KeSQRBZp5JFIJqnkkkw26eSTUEYp5ZRUVmnllfF1tEKUOIE4YZMQLsXkd7O0d9uSj903mHtLznfRQAoy
+        eORJ9F3DppLzNaUgTm1+Z56cRm6olGdKjTnfoBg2iVptPD05SxfrbYflpEBG5KRCTTZmEAC7dSoQgJoZ
+        RJqnpJYaU2+zXbOYqay2OlFvI20NlaqrtNaq6gpEaWrrrrz26uuvwAYr7LDEFmvsscgmW2tAACH5BAUI
+        ANgALDcAGgBVAFAAAAj+AK8JHEiwoMGD2BIqXMiwocOHECMmPEixIkGJGDNqdGixI8KNIENGtBKIlceO
+        IlOqDBTIygoAK1ie/KiypkaCrFq+tGJypkCbQDFSZGUFJs+Gs1olUpqU1YGgUDlabAmA4aylV5POErQi
+        qleFMxkybaW1lSBss7569XkNW6AuWFuhjTarCza5aqGyFZgI66xoaGdZuZIor969cWddU9y2C1nDkCH2
+        LSuw1QpBhSNrZtiXrFyysy5nVrk3bMqriVvJRdSlBDZZIkuftNk30VWyhUcnBAxSdseuNZUufaT0sO+D
+        K1gFXYrV+HGCJAduDvm8YMyL0zdWH5i8YHbt1Vn+dff+PWP4FRTLmz8eCH169ZBb9qQJ/7RWqRXrn1bt
+        +TFYlPqFlFpSugXo1XCPlWWgWkqRRVdCrVzj34JQTfZYNIsRSGFUzGm1GF2gbRgUIomBeFtaItrUoG2g
+        qXZVisvFhdVkMAKFWW23LVVjhbXRuCNU/HWxx49EFmnkkUgmqeSSTDbp5JNQRinllFRWWWQXgcyIopUQ
+        pqYalwl15uF9VlqomFxasYLXlGKSNRBZZ1GZY1ICJXXXlmz6FWFZBUZZW39lrZlnh55lZSVqCDInqJw9
+        tvKIbXhaKVxnYFZq6aWYUrdXVU+yJd52HhnGVkugAqgWW9GVml9ebI2nKn00a/kEwKursnoSqbTCGqtH
+        uOZKnq0eueqrdKKeNOuwvwJbUa/I/gSZR6k262yxFh0rrUABAQAh+QQFCADYACxIACAANwA5AAAI/gCv
+        CRxI8BoAbAgTKlzIsKHDhgULBrLysKLFiwkjCmSFTaPHghgrWlmxwkrEQB0/qgz5UGCgFQCssBo4UeVK
+        lhAHsrICYAVKbIFsfsSZkyCrlzBnCvVIdOHHQAAA/FQ4q9UsbFabXlz58uDAVmCrWs2q1eFKgQpbJarK
+        dmxZs0MXXkk09mpVhAfeMrypMNFasoKwGcAWWG9ZumxNCcY2qNUjw4fptoqB7Uqra2KvQibqFyELWW1n
+        Jdr8FlFYtokQkSZ6oIvfsWDpUlzNMpro14ke0X1Mu6lf3BWXanxr16Jwgr2DC+eYvKXQl82NfyypNLpz
+        iT6RW3eoVODI7mi33zeUeo1VTPDhxS9kRZL88OazFGteCNN9xOZqEQlCvDCoeZn30XZbXWrNl1J534FE
+        m1oEikWRRlBN1VuBBYY2mnoMvTbLLLZhJhaGCw1Y1UC2OQZiWhpahRlWbJ2YkF9tXUOgiwkhkmJbZNE4
+        141WXUgjQgMixp+LVyzkl25D/shQIBIqydAKhTnZEGVSVmnlWzz5BMBxAUrHZVfoHbcVlzpFlR2ZY5JZ
+        3gpAwRQIc5upudEKOrG5mpzX1KQdaXjq2aVeeFoRVFxv4blCmO81ZSiihLIk55ZyOkome3gKFBAAIfkE
+        BQgA2AAsVQAnAB4AKQAACP4ArwkcSLDgQGwIEypUaLDhtYUQI7Jy+DCixYQrVgQyiC3jRYgEA60AwAph
+        SQDYCrYKhKhVRIOBAGREWTBRolk3WyUCadAKAABWJg7U2arVLKM6FxZEuOIaK59WBBJ9hBTbrKOzLgoV
+        +BRAIJtYr82KhtWlwowbGwbClkjn0YFZi2ZlSFGsTaSzpJalW1dnzrFHsRnNmbIuQZtty5Y1OvdjQr+t
+        qJa9edSs44SIp7rFe3kh4ruUkVrujNAmoi5tRT9qTJptIkErIstNhKi1Zy9sI7d9bXsh7sw7ERqmWJJz
+        wuEOA0VdWhh5QVZNDx53/jz6tZjTqQ+E7jRjSeHaB4GKjJk2PEyZW81vH7mco3afytszL707sMKYKyYG
+        Ks9cRmK8lnk3kBXyESTYZouxFlKBB90VFmOtdNGcePwRhJNseeV1jVwREWgRUUgNhVWHa0Wkk2RGbWhV
+        K4JEtMJFOP3nEla09YaNIA4COJptmVElW3A2HgWaWzYqJGQijwBpY0AAIfkEBQgA2AAsRgAbADsAPQAA
+        CP4AsQkcSLCgwYMDZ7VK1ErhLIQQI0qciG1hw1YXW1HcyPHgLIaPGjpU2LEkx0QMFV679rChyZcRLSaa
+        RbJixYcwcxJcOBMjS4EXdQqtiFJkq2sXaw6F+bHoyKRLdaJk2PNioqg6eVJVWJQLgBVYX2qd2qoLNiiH
+        wuacmgjRFS4a1UZlJbeu3bt489pdyffaClZ9AwsejHWwX8CGE/ctPDiQFcWQr4Vt/DhyYrmBHVu+HHbF
+        X75WAm02bDKyFQBWAGseHbi0ZVYrUK9mvbIk7Wuwv952ffva6dSjefeGHVt05Je9+cK+FsgzYtLIk+Ne
+        ARqA8dY5pTOvvLI5WMbJ6fkKDlRQhiCMSvWKF0ywS6tHChte1TuQsGdBDI3Gx0kfoVOSDrnUH0ILOcSX
+        Q/MNaNBW0cyykkYLKXgQSg41yBJUEhJUlFFIcZVhQTwFGN9MHxZUVEozMVTigieGCNNxJjVFYU5fPYdd
+        hpmhZiNdJQrGymmBAPZbj4MR5xx0eRnW3FcrXHcjXj4W191XeYlIUF+5OdkdXk4VGNdAxdn4ZFggJeVS
+        ANhUIZCYSEa1IU02NVTcUaxhlZJSDgmU3FI8obfSLA22IsOKRPWkUkuzXEFeiU2JGGgrVlhBKFlmPtIW
+        oYV+JB9GCRKqVYEqWoMmpmOpiKlBD/F3akAAIfkEBQgA2AAsNwAKAFYAUwAACP4AsQkcSLCgwYMIE2Kb
+        pbChw4cQIx5slYhiK4oSM2rciJDirFYfZ33kSLLkw1kVQ4a8aLKly4GJYn68xnAhyJc4SaYEGU0gyJE5
+        g0akuHMWTWwXawpd2jBmopDRRlZkSjVhzKQ3QbZ6VLVrQadPtT5N1NOrWWxgPXo8yzatzLJszX5MhAiR
+        0rh48+rdy7ev378NrwkeTLjw4EBWDCtezNiw0MaLEUOeTPkxZcKsVlxunHczYQCeCfMNPRi057+kBa9g
+        VRkwttTXrASC7HogbNmLaxeELbmwboOwMxO2sgLAb4K8E2fGtvo4ctgAigdi5TwnbNrVs2vfzr279+/g
+        w/6LH0++vPnz6NOrX8++fXgrrFN/n329OwAA9GF3v8YKAHz92w3GCnHxhaadYoHgR1p2jGWW2GnHUUbg
+        ZhFeFsgK+WHnGmnLhZcadQXVdJdu9Ql0lVY3sdeFViqlmJ5FISH1kYvnXQUUQzGmV9EjrRwlI0vooRTW
+        TLNEhRF6FoUlY0iJXOdYXyfyuNJTTvrWF1FDJvlalYOtwBxfbm311JZc9rfCgxC+hOVViAjE5YXGufZT
+        K8/dJt2A3YFUEZUNWuFffohtB6NYCBb3H2GBCJrlSgVFN51iIFaHEosLITXmQAUqtp1MN/U0p5uTdehc
+        RVoJZpSeaY46ZJE0sUhhdh6CkNriXOoJySKKiaznFIoUccWekDHxmKt7tl66XkAAIfkEBQgA2AAsJwAA
+        AG4AXQAACP4AsQkcSLCgwYMIExJslShRq1kPI7ZSSLGixYsYMyJsGBHbLIEQP2ocSbKkSY8OHz0cKPGk
+        y5cwCXIMee3axFmJYurcmRGnQ4g2r4XMybOo0YMNE0GMuFTk0adGGTpUGlGlU6hYY8oSxFHp1C7RsoqF
+        GQhl0p96yo5dWzKANZAhQZK4yrYuzJp48+rdy7ev37x2Ef4NtOKv4cOIawY2eHgFq8SQIyteTPCwlUCS
+        Mx+mXNlwICuaQ/flLDAxANGoAZNO7Dh1atLYEn92jRq2bNC0Q6+GfDq35t2sH/uWDBzx5eHEOUeejRwy
+        7OfQo0ufTr269evYs2vfzr279+/gw/6LH0++vPnz6NOrX8++vfv38OPLn0+/vv37+PPr38+/v///AAYo
+        4IAEFmjggQgmqOCC3emG32/4FZYceKkRJlxi4rnGSmsYhkfbhs55mBuHhmXoG4l+mXjihaOJ6BsruKVI
+        YXMgyjgjcmqx1xxGH80ChYEQTYUTbd/NgkgrHRn0k0SJ1PYdR1WtBBKSVIVEU2TiOcSURCIxFFIrQiEJ
+        FGKsjOflQ7MIFc1SKHnpUU2zXOkXK4QBMN5MYNoUZyuPCITnNWFhQ2VfnwGwwgqYYSmdkLNEgxdTODWV
+        ppUTCURnnYiyqGh0VKEZZpB+NvRlmK0gMpChx70mHSKigrkSkjqPhMUQklvixMqtmqrK6ZJf4lQpNkn5
+        6mueO06X1JlTFeTTrEo1h1d1x07Vp0FLWeXss9VJlYhKBAUEACH5BAUIANgALCcAAABuAF0AAAj+AK8J
+        HEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3FjQyooVgVhxHEky4kdWgQKtEFmypcuCK6wQVPmyZkua
+        HQPZ3LlxBUIAPBliG0q0qNGjSJMqLWpF5sFAVpZKnUq1qtWrSFciZOUzaEKsYMOKHUu2rNmzaNOSTZSo
+        VaJZs9TKnWt11ttWs1rpjUu3r9+ibPHCvYa31d/Dc9sWjnZtVrS8fBFLLsv27eDGhSdrFmvXbV7CQyFv
+        Ho2VLeRWmPMmIs2aauC7jk+3nq208t7CbSPT3h26sum2j1bzHt77dVvhxJP7fpu8ufPn0KMTXcVCuvXr
+        2LNr3869u/fv4MP+ix9Pvrz58+jTq1/Pvr379/Djy59Pv779+/jz69/Pv7///wAGKOCABBZo4IEIpgdZ
+        XgQeJ1uApuH1WCuIYBONf4Ex+Ble/nV2mkBwGdafbZc1Fs0jF/LnFmyPYVOYbvnZ9qJhmalY2Wl5PSLi
+        iK+pphqAy6mG3H/LtUXggwnih9AKAR5khU4Z8baiZ6gpxIpTDHV10XAZ4jbLQlawpFBKFiXnGWx54TUm
+        lglpJdFzXbqITZpfJgTUQm46FJ0gDtYZm5p2MuRRQ9fZ9SGIkCUUyJ14hmkQd1MWZmJeFT4FgJhWWgHA
+        R1F5ZxeaE+YliAElDOXRCpti2hBK2ATynYweOA7ZKiu0ekUoYit66Bagtk6kmXGG9lrRZmdWOVFAACH5
+        BAUIANgALDAADABWAFEAAAj+AK8JHEiwoMGDCAWyWpFwILaHECNKnEhxYsOLGAsGsoKxosePFDOKvGgl
+        UEeQKD+OXHkQgMiUMC2ynHlt4cuYOLHRnLnxZk6YO1muYOXzJ8qgK12ONJoSqUibS5mCdJqxZ1SpHqli
+        tFoUq0ytCYeu9Eq2rNmzaNOqPbtxrdu3cONCnIWti9y7FWe1StSqbyK8gLHN4qt3lt5EdAPH5Yu4MN1W
+        iRWv3Qu5lcBohVtJdpsIceWBkP9uVtsZ8qxrdA33HU2a72fNoVmnFZToUd/Mh2WjDdTZs97QkXWXLV3a
+        dmfhaff23hscuVm9vBHJ2CPL+d1o1rNr3869u/fv4MP+ix9Pvrz58+jTqw/MApHg9R8pu24O/2HnwYX5
+        1o9IubJju/sN5ptms0TTF0LnyWfYQKrJsF9vvwkE2yyCPDgfZA85tp9yjfm32n7YlHabhyBiI0Nntt1G
+        mHgn2Qfhiiw2NJFfGJLXkBXYsLJfQlZwFJR2CK1gElJAGlQSVUUSJKRWSdYkFpPZKUkUWNdEKdCTVJJF
+        G2N6eWXFlFRW6RUirdj2m2hShemQVO4NqBqaP6kpkFcVViYYZoUF+NdtiVWmWX2tVIhYNAI9NhiIXbDg
+        3zV4HshSd1ecqNqkrSAyU3dWdEFZZmVeAdFV213BpYp/QvRli9shQpyAzW0EwAosX4JZkHfQCMaYZQlt
+        tMKrgcgqJnc7seIqrIGAR5WwVrzqnZrLhtlslt2pGRAAIfkEBQgA2AAsPQAcADcAOwAACP4ArwkcSLCg
+        wWtWsClcyLChw4cMD0o8uILVxIkQH168WHGjxIwQPRYEIPIgSJAlSZYsePLkxkBWVrJs2VIiqxUyCdLc
+        aRBmzoE7d1qxKNDnz2tBaVoBsCIQQqdHk9JkFWjFCgBEo6I8GggAAKgyaR4V2PQq2I1S00Jkpbat27dw
+        48qdS5chooR13c5qxTdRq0R5087y+6jVrL2GAwdN5HfvLGyOryhuSdjwtVaQ+SKafJKx4VYEDyfm/PBv
+        Y9CzojnGTLq030Sir6XeC7i1w8GvP4sebPshY9if+Q5mrbjpwStWflf2nLfgTZxAF+L+/fdwc4NLnTo0
+        jUgQY8USq+V6fThrTxdrk8NfrfiQyx7OB5fG7Nq7oXOrWdnWX0iw69no+w1khXEfBXiNVSLtB0BMJRkY
+        VmtaZeTYXvtJyBhijlXokF/CORYIC9isoiE23q2mkAzYSDbiX9WlxkWK2IxWIW570ZcZhRqyiM0BJTiF
+        2WcrCnKAQodNKGOFBlyBCIer1cZQVgbNZcAeSzYGXCuPIBLAE5spBOVMdCnHol8LqYBNINhcFJhpvz22
+        EGYrYPOlTorNchErXhEIZltjsXWNeIFAOaKc0F1z04JEDWrUQKws1ZSiDPYUp6JqDjonnSNeOlBAACH5
+        BAUIANgALEoAJgAdACoAAAj+ALEJHEiwIMFWiRDOamWwoUNsiRItnJjooUWIEltN1MjwosFWICdi29jF
+        Y8GIIqNdu8bR5EBBKDVemzVTY0WXIxNmvBZtFraQDlmtaBgxJMdZCyuuXLpSKNOlMDNuRCjwadMVT7EZ
+        sBIx4SyvEn1avRbIylKhJQZ2lZhQ0MCxQrGxsgLAis+BX7si1VPVatlAAFawGju271O6AAYTXvx0bl3F
+        jCMDXmHFbGTCAh0HImv5slVsk5eW9VzY8DUrm0ln9dtZ9eLRrpcKTIrQSpeOOAcibPVII7YrvnMLLDrx
+        CheqwkH2RspQ0FfcLomDZGtTuNfdG0XiXCuV4dHtOid0zqy5EGfe6ytVHvU8PLxMpNcSXj7ZfWXIRFaw
+        ERYqWK10jQv59hhT2OQXiEFFZWTTQtdoNlh++REoEELU9SbfWStkONRneK2lUFYrBLZCahIeNMsVkF3V
+        12Qp4gQAiaIFltuLKT7FokvsAXBRbNdYxOM1AQEAIfkEBQgA2AAsPAAeADsAPwAACP4AsQkcSLCgwYMI
+        ExZshW2WwocQIx6c1SrRrEStWjmUyLEjwYoaM15k6LGkxEQYKarUOKuUDJMwDXZp9YhlQ2wZu5QAFLOn
+        QBkpSba6RvGRT5+mcFrEee1aSJJHYR5iYVGj04YaE0XF1rSr169gr2HDGNLhyq1cw6ptOhDlypBL0aZd
+        27UgSrI1U8otuDbQihUL79LMuLdgILB+VwRiZXCl1sIE/QJg1ZTVCgCHv0I2qDYQgL+Y1W7mq9YKAABW
+        KIcd/dD0imusTFtZzRrhZ9WVTWeuW7vg37lfEx81a5JuUyswKZIN2ZsjyFkrNzZX6JZlNOiEpyfEaPG6
+        wLLaD/5WrDqr69nwBUeq9A4e/UeUZTXilO9+4EX40TF2wQa4/ti7FGWFCGCM+SfQXYJhE4ABAoUVyGzG
+        0eWRYIi8pAdBYGGzW4S0dQSdIAcY9Bdu1zzI4Vo9ORgaWxCemCFMa1mmWIktuuhVcRF6ZoUVG9rIlkcu
+        xoaaj5p1RKRrJJ5YEpE0ymbjkkyaKGQgkDFZ2WuVfVaYlbBhydteXFr2olxcmthhVGF6WeRWXF4DwJgG
+        xinnnHTOKQgiFalUJzaC5BkfnV1YRBFR7RkIklUMzXIdVP75WZ5ZWcn53FDRfBdgnIJBp5Jy0tU3KXOF
+        1ncfeRnlNSeCeXLXqaGCAbincg347UnQKi/JWlAJrAUEACH5BAUIANgALC8AGQBWAFQAAAj+ALEJHEiw
+        oMGDCBMqXLiwlcNWsxhKnEixYsJZiRLNmuWQo8WPIEMOTARRI0ePIlOqTJiRJLZW2E7CXElzZSuSG2HO
+        unYN4pWaQAvyHEq06LWWEGdF43kSUdCn2IxK5ZnxJsdrSnNChTq1KLaWMiM+jLgVaFeegaxgu1JVI8S3
+        j6KVrRloKisrAFYEEogUJ0mNc2taMRpoBQArrAq2/Nvq0czAKhMTtWK47tSbGR+5hLwy7TVWhlewOjtU
+        LOeglUeTJj0Q41+UpxVaXr1aYCCcb3HGTki790u/Jzk+3m2wd+2qEKOJ1Uq8uPGzXxtDLF2yeVnXJ7Fi
+        U+7Q+laMHVv+XVN+MpH3rVWDc4d4HirmtzIdt4eKlKPGRILmo+9rXuDO50Ppd5F0ZA0EDYA8CQiSas8p
+        aBErB8xWm4MDGQfNCoNNSKFAAFLGoFEbCgVgYRIGGCJBCH62wgpEnehcinjVtZdaLnKYIlqGAbBXjTbe
+        iI1hPKJ4o1o0Btnjc6CtYOSSTDbp5JNQRinllFRWaeWVWGap5ZZcdunll1CFVqJxTOp415i+GTmbZyka
+        WRSbCPIoFWg+hngWnW06SBueceoHIAB1enejaHnudiNRhAIY26FSWYEma08x2hucZEKZFpgEKYnpppwa
+        NIsgiHTkZXpW9aelVfC9pSV4bi3XHZY3GWW3HEZZktqTQPDBiipTL7EHK24e5WSqle/J9NZwVsbaqkOP
+        FHilazeV9OqWi+mGqVOdqnBeQAAh+QQFCADYACwoABkAbABgAAAI/gCxCcQ2i+DAgwgTKlzIsGHCaxAj
+        SpxIseLEWa0SZcSIcJbGVq08OhxJsuRDiyhTTtSIEWPIgSBDtgRZ0KTNmwhV6rToMlHLmQJ9yow26xpI
+        VkhZ4VxKcqdTiYmEzppFdGbGkK0g/kzEtOvIpyhZBbKyQuCKqFgjYvXY6lFIiTRbeZ2rEKxEsVYAALAS
+        KJDAqz6LyiUYEi1VwVMz0l180K7YFXsDsaLo0W3IaNesGl5LVCjjzyUDQV4RKGVGlkM1S12rEbRrh3yd
+        RkU9k6tHtFg1+nzNu+7T07oxesZ2+pFG44p7K7cbUTjbqDUF3ka7W/lr5hVnD0dI84os666x/qMsC768
+        9b43xas0zx7bisnqUbb/nPJ9fIvzGau0f39i/sU6WQFffxD9R5dOrPDXn4EHIigggQzO5RQrsd0XoVdg
+        VajehV3ZZYUVHP7HnEBKhcgedgKJZ+KKLHIIQIvLxQfjjDTWaOONOOao44489ujjj0AGKeSQRBZp5JFI
+        Jqnkkkw26eSTUEYp5ZRUVmnllVhmqeWWXHbp5ZdghinmmGSWaeaZaKaZE4HMabjThWwyNxZYcMYJ1pxP
+        1WnnUwDQGeGeYCm4np6A6oSnThwW6tShg/6p6E59vknooyi5iV+ilKrE6KWTZkpRgohi6ul4pcnHpV9o
+        kreRTGJS51J0SF1CtxZIAsYanFxAcXkaVgRV9dKWbLlVlFZGwYrlri1BhNVgWt7G2U/MajnbWlTxyuVs
+        zhUW7ZbAgcSSsdzO5hZXY9YE7oUBAQA7
+</value>
+  </data>
+  <data name="btnSelectAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gbSelectDatabase.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabCtlResults.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbFederations.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="rbScriptAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 22</value>
+  </data>
+  <data name="&gt;&gt;panelTargetResults.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCreateDatabase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 32</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 108</value>
+  </data>
+  <data name="btnNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 32</value>
+  </data>
+  <data name="panelTargetResults.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 213</value>
+  </data>
+  <data name="&gt;&gt;tabResults.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConnectTargetServer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tabResults.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 80</value>
+  </data>
+  <data name="btnClearAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;panelTargetDatabase.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="btnConnectToServer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbTargetDatabases.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gbSelectDatabase.Parent" xml:space="preserve">
+    <value>splitDBDisplay.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnRetry.Parent" xml:space="preserve">
+    <value>panelTargetResults</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="progressBarTargetServer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSaveTargetResults.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="rbScriptAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCreateDatabase.Parent" xml:space="preserve">
+    <value>panelTargetDatabase</value>
+  </data>
+  <data name="tvSummary.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbSelectFederation.Text" xml:space="preserve">
+    <value>Select Federation</value>
+  </data>
+  <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbActionDesc.Text" xml:space="preserve">
+    <value>Select the database you want to script</value>
+  </data>
+  <data name="lbFederations.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="progressBarGenScript.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 0</value>
+  </data>
+  <data name="btnAdvanced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tabResultsSummary.Parent" xml:space="preserve">
+    <value>tabCtlResults</value>
+  </data>
+  <data name="rtbResultsSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>panelWizardOptions</value>
+  </data>
+  <data name="tabSQLScript.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelObjectTypes.Name" xml:space="preserve">
+    <value>panelObjectTypes</value>
+  </data>
+  <data name="&gt;&gt;btnCancelTargetProcessing.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbResultsSummaryStatus.Name" xml:space="preserve">
+    <value>lbResultsSummaryStatus</value>
+  </data>
+  <data name="lbSourceFederations.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;gbSelectFederation.Name" xml:space="preserve">
+    <value>gbSelectFederation</value>
+  </data>
+  <data name="&gt;&gt;splitDBDisplay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="rbRunTSQLFile.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnConnectToServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 123</value>
+  </data>
+  <data name="rbAnalyzeMigrateDatabase.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 14</value>
+  </data>
+  <data name="btnSelectAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppendingScript" xml:space="preserve">
+    <value>组合脚本：{0}之{1}</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>为表生成脚本 - </value>
+  </data>
+  <data name="ChooseTable" xml:space="preserve">
+    <value>请选择一个表</value>
+  </data>
+  <data name="Discovering" xml:space="preserve">
+    <value>发现：{0}之{1}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>完成！</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="NoDatabaseSelected" xml:space="preserve">
+    <value>没有选择数据库</value>
+  </data>
+  <data name="NoSqlServers" xml:space="preserve">
+    <value>网络上没有发现Sql Server！</value>
+  </data>
+  <data name="Scripting" xml:space="preserve">
+    <value>生成脚本{0}之{1}</value>
+  </data>
+  <data name="SqlError" xml:space="preserve">
+    <value>{0} has received a severity {1}, state {2} error number {3}
+on line {4} of procedure {5} on server {6}:
+{7}</value>
+  </data>
+  <data name="StateChanged" xml:space="preserve">
+    <value>状态由{0}变为{1}</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="NoClusteredIndex" xml:space="preserve">
+    <value>--~----------------------------------------------------------------------------------------------------
+--~ 表{0}没有聚集索引。
+--~ 你需要在添加数据前为它创建聚集索引。
+--~----------------------------------------------------------------------------------------------------</value>
+  </data>
+  <data name="NoClusteredIndex2" xml:space="preserve">
+    <value>表{0}没有聚集索引。
+你需要在添加数据前为它创建聚集索引。</value>
+  </data>
+  <data name="UDTNotSupported" xml:space="preserve">
+    <value>**注意：目前SQL Azure不支持用户定义的类型</value>
+  </data>
+  <data name="UDTNotSupported2" xml:space="preserve">
+    <value>目前SQL Azure不支持用户定义的类型
+发现如下用户自定的类型：</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported" xml:space="preserve">
+    <value>**注意：目前SQL Azure不支持XML Schema集合
+** 你需要修改表结构，把XML保存在varchar(max)类型的列中
+** 并重新调整此程序的配置</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported2" xml:space="preserve">
+    <value>目前SQL Azure不支持XML Schema集合
+发现如下XML Schema集合：</value>
+  </data>
+  <data name="WizardActionSelectSource" xml:space="preserve">
+    <value>选择源</value>
+  </data>
+  <data name="WizardActionSelectSourceDesc" xml:space="preserve">
+    <value>选择要生成脚本的源。</value>
+  </data>
+  <data name="WizardActionObjectTypes" xml:space="preserve">
+    <value>选择对象</value>
+  </data>
+  <data name="WizardActionObjectTypesDesc" xml:space="preserve">
+    <value>选择要生成脚本的数据库对象</value>
+  </data>
+  <data name="WizardActionResultsSummary" xml:space="preserve">
+    <value>结果汇总</value>
+  </data>
+  <data name="WizardActionResultsSummaryDesc" xml:space="preserve">
+    <value>脚本生成和分析汇总</value>
+  </data>
+  <data name="WizardActionScriptingOptions" xml:space="preserve">
+    <value>配置脚本选项</value>
+  </data>
+  <data name="WizardActionScriptingOptionsDesc" xml:space="preserve">
+    <value>配置生成脚本的对象。</value>
+  </data>
+  <data name="WizardActionScriptWizardSummary" xml:space="preserve">
+    <value>脚本向导汇总</value>
+  </data>
+  <data name="WizardActionScriptWizardSummaryDesc" xml:space="preserve">
+    <value>检查你的所选项。</value>
+  </data>
+  <data name="WizardActionSetupTargetConnection" xml:space="preserve">
+    <value>配置目标服务器连接</value>
+  </data>
+  <data name="WizardActionSetupTargetConnectionDesc" xml:space="preserve">
+    <value>输入目标服务器的连接信息。</value>
+  </data>
+  <data name="WizardActionTargetResults" xml:space="preserve">
+    <value>目标服务器回应</value>
+  </data>
+  <data name="WizardActionTargetResultsDesc" xml:space="preserve">
+    <value>目标服务器执行TSQL的结果</value>
+  </data>
+  <data name="ObjectTypeTriggers" xml:space="preserve">
+    <value>触发器</value>
+  </data>
+  <data name="ObjectTypeSchemas" xml:space="preserve">
+    <value>架构</value>
+  </data>
+  <data name="ObjectTypeStoredProcedures" xml:space="preserve">
+    <value>存储过程</value>
+  </data>
+  <data name="ObjectTypeTables" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="ObjectTypeUDF" xml:space="preserve">
+    <value>用户定义函数</value>
+  </data>
+  <data name="ObjectTypeUDT" xml:space="preserve">
+    <value>用户定义类型</value>
+  </data>
+  <data name="ObjectTypeViews" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="ObjectTypeXMLSchemaCollections" xml:space="preserve">
+    <value>XML Schema集合</value>
+  </data>
+  <data name="SMOOptionsGeneralDefaults" xml:space="preserve">
+    <value>为默认值生成脚本。</value>
+  </data>
+  <data name="RemoveComment" xml:space="preserve">
+    <value>--~</value>
+  </data>
+  <data name="RemoveCommentEnd" xml:space="preserve">
+    <value>~*/</value>
+  </data>
+  <data name="RemoveCommentStart" xml:space="preserve">
+    <value>/*~</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value> -- 成功：</value>
+  </data>
+  <data name="AddingClusteredIndex" xml:space="preserve">
+    <value>正在添加聚集索引{0}之{1}。你可能想更改此索引。</value>
+  </data>
+  <data name="AnalysisComplete" xml:space="preserve">
+    <value>SQLAzureMW已经完成分析任务。所以发现的问题会被列在上方。</value>
+  </data>
+  <data name="ChangingClusteredIndex" xml:space="preserve">
+    <value>正在修改索引{0}.{1}为聚集索引。你可能想选择其他索引作为聚集索引。</value>
+  </data>
+  <data name="NoIndexableColumns" xml:space="preserve">
+    <value>表{0}是一个堆，而且没有可以索引的列。在迁移前你需要为它添加一个聚集索引。</value>
+  </data>
+  <data name="UDTNotSupported1" xml:space="preserve">
+    <value>目前SQL Azure不支持用户定义类型</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported1" xml:space="preserve">
+    <value>目前SQL Azure不支持XML Schema集合</value>
+  </data>
+  <data name="ObjectTypeRoles" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="WizardAction" xml:space="preserve">
+    <value>选择任务</value>
+  </data>
+  <data name="WizardActionDesc" xml:space="preserve">
+    <value>选择您希望向导完成的任务。</value>
+  </data>
+  <data name="BCPOutputFile" xml:space="preserve">
+    <value>BCP输出文件：</value>
+  </data>
+  <data name="BCPUsing" xml:space="preserve">
+    <value>用BCP获得表数据</value>
+  </data>
+  <data name="AzureUserName" xml:space="preserve">
+    <value>Azure需要{0}在你的用户名后面加上扩展名。需要自动问您加上它吗？</value>
+  </data>
+  <data name="AzureUserNameWarning" xml:space="preserve">
+    <value>Azure用户名要求</value>
+  </data>
+  <data name="SQLAzureCloudName" xml:space="preserve">
+    <value>database.windows.net</value>
+  </data>
+  <data name="ObjectTypeUDTT" xml:space="preserve">
+    <value>用户定义表类型</value>
+  </data>
+  <data name="BCPCouldNotFind1" xml:space="preserve">
+    <value>SQLAzureMW无法找到BCP输出的记录数。BCP执行命令如下：</value>
+  </data>
+  <data name="BCPExpectedRegexMatch" xml:space="preserve">
+    <value>这个是正则字符串要寻找的内容：</value>
+  </data>
+  <data name="BCPHereIsOutput" xml:space="preserve">
+    <value>这个是BCP输出：</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="BCPProcessAborting" xml:space="preserve">
+    <value>正在中断BCP上传任务...</value>
+  </data>
+  <data name="BCPProcessFailed" xml:space="preserve">
+    <value> --&gt;抱歉，BCP上传任务失败了：</value>
+  </data>
+  <data name="BCPProcessingStatus" xml:space="preserve">
+    <value>正在处理{0}之{1}</value>
+  </data>
+  <data name="BCPTempFileDeleteFailed" xml:space="preserve">
+    <value> --&gt;删除临时BCP文件失败。 错误 = {0}</value>
+  </data>
+  <data name="BCPUploadingData" xml:space="preserve">
+    <value> --&gt;上传数据到{0}
+ --&gt; BCP命令： {1}</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>取消了！</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>--&gt;错误 </value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>错误... </value>
+  </data>
+  <data name="ErrorApplicationConfiguration" xml:space="preserve">
+    <value>应用程序配置出错...</value>
+  </data>
+  <data name="ErrorLanguageSectionNotFound" xml:space="preserve">
+    <value>抱歉，未能在{0}.config中找到合适的语言配置来分析BCP输出。
+程序无法继续运行。</value>
+  </data>
+  <data name="ErrorNumAndMsg" xml:space="preserve">
+    <value> --&gt;错误#: {0} -- {1}</value>
+  </data>
+  <data name="ProcessAborting" xml:space="preserve">
+    <value>错误#: {0} -- {1}
+{2}
+任务终止在{3} ...</value>
+  </data>
+  <data name="ProcessCanceledAt" xml:space="preserve">
+    <value>任务取消与{0} ...</value>
+  </data>
+  <data name="ProcessingFinished" xml:space="preserve">
+    <value>任务完成于{0} -- UTC -&gt; {1}
+任务共耗时：{2}</value>
+  </data>
+  <data name="ProcessStarted" xml:space="preserve">
+    <value>任务开始与{0} -- UTC -&gt; {1} ... </value>
+  </data>
+  <data name="SqlHelperValidParameter" xml:space="preserve">
+    <value>请提供一个合法的参数值 #{0}, 参数名属性值为：'{1}'.</value>
+  </data>
+  <data name="TraceFileLine" xml:space="preserve">
+    <value>跟踪文件行 # {0} : </value>
+  </data>
+  <data name="ScriptOptionsGeneral" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="ScriptOptionsOverride" xml:space="preserve">
+    <value>覆盖：执行所有兼容性检查</value>
+  </data>
+  <data name="ScriptOptionsOverrideNot" xml:space="preserve">
+    <value>覆盖：不予执行兼容性检查</value>
+  </data>
+  <data name="SOSCreate" xml:space="preserve">
+    <value>生成 CREATE</value>
+  </data>
+  <data name="SOSDefaults" xml:space="preserve">
+    <value>生成默认值</value>
+  </data>
+  <data name="SOSDefaultsDesc" xml:space="preserve">
+    <value>生成默认值。</value>
+  </data>
+  <data name="SOSDrop" xml:space="preserve">
+    <value>生成 DROP</value>
+  </data>
+  <data name="SOSDropCreate" xml:space="preserve">
+    <value>生成 DROP 和 CREATE</value>
+  </data>
+  <data name="SOSHeaders" xml:space="preserve">
+    <value>生成头</value>
+  </data>
+  <data name="SOSHeadersDesc" xml:space="preserve">
+    <value>为所有生成脚本的对象生成描述头。</value>
+  </data>
+  <data name="SOSNotExists" xml:space="preserve">
+    <value>包含 If Not Exists</value>
+  </data>
+  <data name="SOSNotExistsDesc" xml:space="preserve">
+    <value>为包含 IF NOT EXISTS 选项的对象生成脚本。</value>
+  </data>
+  <data name="ScriptOptionsTableData" xml:space="preserve">
+    <value>只有数据</value>
+  </data>
+  <data name="ScriptOptionsTableSchema" xml:space="preserve">
+    <value>只有表结构</value>
+  </data>
+  <data name="ScriptOptionsTableSchemaData" xml:space="preserve">
+    <value>表结构和数据</value>
+  </data>
+  <data name="ScriptOptionsTableView" xml:space="preserve">
+    <value>表/视图选项</value>
+  </data>
+  <data name="ScriptOptionsTSQLCompatibility" xml:space="preserve">
+    <value>TSQL 兼容性检查</value>
+  </data>
+  <data name="ScriptOptionsUseDefault" xml:space="preserve">
+    <value>使用默认设置</value>
+  </data>
+  <data name="SOSADSPDesc" xml:space="preserve">
+    <value>活动目录存储过程。</value>
+  </data>
+  <data name="SOSADSPDisplayName" xml:space="preserve">
+    <value>活动目录存储过程</value>
+  </data>
+  <data name="SOSAgentSPDesc" xml:space="preserve">
+    <value>SQL Server 代理存储过程</value>
+  </data>
+  <data name="SOSAgentSPDisplayName" xml:space="preserve">
+    <value>SQL Server 代理存储过程</value>
+  </data>
+  <data name="SOSAgentTDesc" xml:space="preserve">
+    <value>SQL Server 代理表。</value>
+  </data>
+  <data name="SOSAgentTDisplayName" xml:space="preserve">
+    <value>SQL Server 代理表</value>
+  </data>
+  <data name="SOSBackupRestoreDesc" xml:space="preserve">
+    <value>备份和恢复表</value>
+  </data>
+  <data name="SOSBackupRestoreDisplayName" xml:space="preserve">
+    <value>备份和恢复表</value>
+  </data>
+  <data name="SOSCatalogVDesc" xml:space="preserve">
+    <value>System Catalog 视图。</value>
+  </data>
+  <data name="SOSCatalogVDisplayName" xml:space="preserve">
+    <value>System Catalog 视图</value>
+  </data>
+  <data name="SOSCDCDesc" xml:space="preserve">
+    <value>更改数据捕获存储过程。</value>
+  </data>
+  <data name="SOSCDCDisplayName" xml:space="preserve">
+    <value>更改数据捕获</value>
+  </data>
+  <data name="SOSCDCTDesc" xml:space="preserve">
+    <value>更改数据捕获表。</value>
+  </data>
+  <data name="SOSCDCTDisplayName" xml:space="preserve">
+    <value>更改数据捕过表</value>
+  </data>
+  <data name="SOSCheckDesc" xml:space="preserve">
+    <value>为每个生成脚本的表和视图生成 check 约束。</value>
+  </data>
+  <data name="SOSCheckDisplayName" xml:space="preserve">
+    <value>生成 Check 约束</value>
+  </data>
+  <data name="SOSCompatibilityDesc" xml:space="preserve">
+    <value>此设置允许你覆盖默认设置，强制兼容性检查，忽略兼容性检查或对单独的 TSQL 进行检查。</value>
+  </data>
+  <data name="SOSCompatibilityDisplayName" xml:space="preserve">
+    <value>兼容性检查</value>
+  </data>
+  <data name="SOSDBDCDesc" xml:space="preserve">
+    <value>数据控制。</value>
+  </data>
+  <data name="SOSDBDCDisplayName" xml:space="preserve">
+    <value>数据控制</value>
+  </data>
+  <data name="SOSDBEngineSPDesc" xml:space="preserve">
+    <value>数据库引擎存储过程</value>
+  </data>
+  <data name="SOSDBEngineSPDisplayName" xml:space="preserve">
+    <value>数据库引擎存储过程</value>
+  </data>
+  <data name="SOSDBMailSPDesc" xml:space="preserve">
+    <value>数据库邮件存储过程。</value>
+  </data>
+  <data name="SOSDBMailSPDisplayName" xml:space="preserve">
+    <value>数据库邮件存储过程</value>
+  </data>
+  <data name="SOSDBMaintDesc" xml:space="preserve">
+    <value>数据库维护计划。</value>
+  </data>
+  <data name="SOSDBMaintDisplayName" xml:space="preserve">
+    <value>数据库维护计划</value>
+  </data>
+  <data name="SOSDQSPDesc" xml:space="preserve">
+    <value>分布式查询和存储过程。</value>
+  </data>
+  <data name="SOSDQSPDisplayName" xml:space="preserve">
+    <value>分布式查询和存储过程</value>
+  </data>
+  <data name="SOSDropCreateDesc" xml:space="preserve">
+    <value>生成对象 CREATE / DROP 语句。</value>
+  </data>
+  <data name="SOSForeignKeysDesc" xml:space="preserve">
+    <value>为每个生成脚本的表生成外键。</value>
+  </data>
+  <data name="SOSForeignKeysDisplayName" xml:space="preserve">
+    <value>生成外键</value>
+  </data>
+  <data name="SOSFTSSPDesc" xml:space="preserve">
+    <value>全文搜索存储过程。</value>
+  </data>
+  <data name="SOSFTSSPDisplayName" xml:space="preserve">
+    <value>全文搜索存储过程</value>
+  </data>
+  <data name="SOSGenExtSPDesc" xml:space="preserve">
+    <value>一般扩充的存储过程。</value>
+  </data>
+  <data name="SOSGenExtSPDisplayName" xml:space="preserve">
+    <value>一般扩充的存储过程</value>
+  </data>
+  <data name="SOSGenTSQLDesc" xml:space="preserve">
+    <value>一般 TSQL 检查（推荐）。</value>
+  </data>
+  <data name="SOSGenTSQLDisplayName" xml:space="preserve">
+    <value>一般 TSQL</value>
+  </data>
+  <data name="SOSIndexesDesc" xml:space="preserve">
+    <value>为所有生成脚本的表和视图生成check约束。</value>
+  </data>
+  <data name="SOSIndexesDisplayName" xml:space="preserve">
+    <value>生成索引</value>
+  </data>
+  <data name="SOSISTDesc" xml:space="preserve">
+    <value>Integration Services 表。</value>
+  </data>
+  <data name="SOSISTDisplayName" xml:space="preserve">
+    <value>Integration Services 表</value>
+  </data>
+  <data name="SOSLSDesc" xml:space="preserve">
+    <value>Log Shipping.</value>
+  </data>
+  <data name="SOSLSDisplayName" xml:space="preserve">
+    <value>Log Shipping</value>
+  </data>
+  <data name="SOSMailSPDesc" xml:space="preserve">
+    <value>SQL Mail 存储过程。</value>
+  </data>
+  <data name="SOSMailSPDisplayName" xml:space="preserve">
+    <value>SQL Mail 存储过程</value>
+  </data>
+  <data name="SOSMFDesc" xml:space="preserve">
+    <value>元数据函数。</value>
+  </data>
+  <data name="SOSMFDisplayName" xml:space="preserve">
+    <value>元数据函数</value>
+  </data>
+  <data name="SOSOLEDBDesc" xml:space="preserve">
+    <value>OLEDB 表。</value>
+  </data>
+  <data name="SOSOLEDBDisplayName" xml:space="preserve">
+    <value>OLEDB 表</value>
+  </data>
+  <data name="SOSOLESPDesc" xml:space="preserve">
+    <value>OLE 自动化存储过程.</value>
+  </data>
+  <data name="SOSOLESPDisplayName" xml:space="preserve">
+    <value>OLE 自动化存储过程</value>
+  </data>
+  <data name="SOSPrimaryKeysDesc" xml:space="preserve">
+    <value>为所有生成脚本的表生成主键。</value>
+  </data>
+  <data name="SOSPrimaryKeysDisplayName" xml:space="preserve">
+    <value>生成主键</value>
+  </data>
+  <data name="SOSProfilerSPDesc" xml:space="preserve">
+    <value>Profiler 存储过程。</value>
+  </data>
+  <data name="SOSProfilerSPDisplayName" xml:space="preserve">
+    <value>Profiler 存储过程</value>
+  </data>
+  <data name="SOSReplSPDesc" xml:space="preserve">
+    <value>“复制”存储过程</value>
+  </data>
+  <data name="SOSReplSPDisplayName" xml:space="preserve">
+    <value>“复制”存储过程</value>
+  </data>
+  <data name="SOSReplTabDesc" xml:space="preserve">
+    <value>“复制”表。</value>
+  </data>
+  <data name="SOSReplTabDisplayName" xml:space="preserve">
+    <value>“复制”表</value>
+  </data>
+  <data name="SOSRowsetDesc" xml:space="preserve">
+    <value>行集函数。</value>
+  </data>
+  <data name="SOSRowsetDisplayName" xml:space="preserve">
+    <value>行集函数</value>
+  </data>
+  <data name="SOSSecurityDesc" xml:space="preserve">
+    <value>安全函数。</value>
+  </data>
+  <data name="SOSSecurityDisplayName" xml:space="preserve">
+    <value>安全函数</value>
+  </data>
+  <data name="SOSSecuritySPDesc" xml:space="preserve">
+    <value>安全存储过程。</value>
+  </data>
+  <data name="SOSSecuritySPDisplayName" xml:space="preserve">
+    <value>安全存储过程</value>
+  </data>
+  <data name="SOSSysFunDesc" xml:space="preserve">
+    <value>系统函数。</value>
+  </data>
+  <data name="SOSSysFunDisplayName" xml:space="preserve">
+    <value>系统函数</value>
+  </data>
+  <data name="SOSSysStatDesc" xml:space="preserve">
+    <value>系统统计函数。</value>
+  </data>
+  <data name="SOSSysStatDisplayName" xml:space="preserve">
+    <value>系统统计函数</value>
+  </data>
+  <data name="SOSTriggersDesc" xml:space="preserve">
+    <value>为每个生成脚本的表生成触发器。</value>
+  </data>
+  <data name="SOSTriggersDisplayName" xml:space="preserve">
+    <value>生成表触发器</value>
+  </data>
+  <data name="SOSUnclassifiedDesc" xml:space="preserve">
+    <value>未分类的。</value>
+  </data>
+  <data name="SOSUnclassifiedDisplayName" xml:space="preserve">
+    <value>未分类</value>
+  </data>
+  <data name="SOSUniqueKeysDesc" xml:space="preserve">
+    <value>为每个生成脚本的表生成唯一键。</value>
+  </data>
+  <data name="SOSUniqueKeysDisplayName" xml:space="preserve">
+    <value>生成唯一键</value>
+  </data>
+  <data name="ScriptOptionsTableDataDesc" xml:space="preserve">
+    <value>生成表结构或表数据，或者都生成。</value>
+  </data>
+  <data name="ScriptOptionsTableDataDisplayName" xml:space="preserve">
+    <value>生成表/数据</value>
+  </data>
+  <data name="LocalizedBCPCanNotFind" xml:space="preserve">
+    <value>抱歉，未能在 {0}.config 中找到合适的语言配置来分析BCP输出。
+程序无法继续运行。</value>
+  </data>
+  <data name="BCPUploadSummary" xml:space="preserve">
+    <value>BCP 上传命令汇总</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="SMOScriptingError" xml:space="preserve">
+    <value>{0}  未被生成。错误消息 = {1}</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="BCPOutputDirectoryNotFound" xml:space="preserve">
+    <value>无法访问BCP的输出目录 [{0}]</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="BCPOutputSummary" xml:space="preserve">
+    <value>BCP输出命令汇总</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="ForiegnKeys" xml:space="preserve">
+    <value>外键...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="MessageCanceled" xml:space="preserve">
+    <value>取消了！</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="MessageCanceledProcessing" xml:space="preserve">
+    <value>认为被取消在 {0} ...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="ScriptingObj" xml:space="preserve">
+    <value>生成脚本 {0} ...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="BCPProcessingUpdate" xml:space="preserve">
+    <value>拷贝了 {0} 之 {1} ({2}%)</value>
+    <comment>v3.6.2</comment>
+  </data>
+  <data name="TimeHour" xml:space="preserve">
+    <value> 小时, </value>
+  </data>
+  <data name="TimeHours" xml:space="preserve">
+    <value> 分钟, </value>
+  </data>
+  <data name="TimeMinute" xml:space="preserve">
+    <value> 分钟 </value>
+  </data>
+  <data name="TimeMinutes" xml:space="preserve">
+    <value> 分钟 </value>
+  </data>
+  <data name="TimeSecond" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="TimeSeconds" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="BCPMissingOutput" xml:space="preserve">
+    <value>BCP输出丢失，命令：
+
+{0}
+
+表 {1} 数据导出未完成。请再尝试一次，或者手动执行上面的命令。</value>
+    <comment>v3.6.3</comment>
+  </data>
+  <data name="DBConnect" xml:space="preserve">
+    <value>选择“Master DB”可以列出所有数据库.
+选择“指定数据库”对特定的数据库进行操作</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="DBConnectWarningTarget" xml:space="preserve">
+    <value>如果你选择“指定数据库”，你将不能创建新的数据库，也不能删除所制定的数据库。</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageSpecifyDatabase" xml:space="preserve">
+    <value>抱歉，你需要选择检查的数据库</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageTitleConnectSource" xml:space="preserve">
+    <value>连接到源服务器</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageTitleConnectTarget" xml:space="preserve">
+    <value>连接到目标服务器</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageUserName" xml:space="preserve">
+    <value>抱歉，请提供用户名</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="NoSqlServers1" xml:space="preserve">
+    <value>网络上没有发现SQL Server</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="PerformanceWarning" xml:space="preserve">
+    <value>性能警告</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="PerformanceWarningAreYouSure" xml:space="preserve">
+    <value>强烈建议你不要选择“指定数据库”，否则会影响性能。
+    
+你确定这样做吗？</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="ServerNamesDoNotMatch" xml:space="preserve">
+    <value>用户的服务器名 {0} 应该为 {1}.  需要自动纠正吗？</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="ServerType_SQLAzure" xml:space="preserve">
+    <value>SQL Azure</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="ServerType_SQLAzureFed" xml:space="preserve">
+    <value>SQL Azure 联邦</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="ServerType_SQLServer" xml:space="preserve">
+    <value>SQL Server</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="TargetServer" xml:space="preserve">
+    <value>目标服务器</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="TargetServerDesc" xml:space="preserve">
+    <value>选择目标服务器</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="SOSScriptCollationDesc" xml:space="preserve">
+    <value>排序规则的脚本。</value>
+    <comment>v3.7.8.1</comment>
+  </data>
+  <data name="SOSScriptCollationDisplayName" xml:space="preserve">
+    <value>排序规则的脚本</value>
+    <comment>v3.7.8.1</comment>
+  </data>
+  <data name="FederationMemberInfo" xml:space="preserve">
+    <value>{0} on {1} member id = {2} range {3} </value>
+    <comment>v3.8.2</comment>
+  </data>
+  <data name="RetryLimitExceeded" xml:space="preserve">
+    <value>超过重试限制</value>
+    <comment>v3.8.2</comment>
+  </data>
+  <data name="ErrorParsingBCPArgs" xml:space="preserve">
+    <value>解析 bcpArgs 时出现错误</value>
+  </data>
+  <data name="DependencyCheckerFileNotFound" xml:space="preserve">
+    <value>找不到的依赖项文件。错误 = {0}</value>
+    <comment>3.9.11</comment>
+  </data>
+  <data name="ErrorMissingDependencies" xml:space="preserve">
+    <value>很抱歉，但缺少 {0} 的依赖项。
+
+错误消息 = {1}。</value>
+    <comment>v3.9.11</comment>
+  </data>
+  <data name="FederationNotSupported" xml:space="preserve">
+    <value>在 SQL Server 中不支持 SQL Azure 联邦对象。删除 '{0}' 表 {1} 上的陈述。</value>
+  </data>
+</root>

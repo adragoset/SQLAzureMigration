@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisComplete" xml:space="preserve">
+    <value>SQLAzureMWによる分析が完了。判明した問題点を表示します。</value>
+  </data>
+  <data name="AzureUserName" xml:space="preserve">
+    <value>Azureでは、ユーザ名に {0} を付ける必要があります。追加しても良いですか？</value>
+  </data>
+  <data name="AzureUserNameWarning" xml:space="preserve">
+    <value>Azureのユーザ名が必要です。</value>
+  </data>
+  <data name="CompatibilityChecks" xml:space="preserve">
+    <value>互換性チェック -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksActiveDirectory" xml:space="preserve">
+    <value>Active Directory ストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksBackupRestore" xml:space="preserve">
+    <value>テーブルのバックアップとリストア -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksCDC" xml:space="preserve">
+    <value>変更データキャプチャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksCDCT" xml:space="preserve">
+    <value>変更データキャプチャテーブル -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksDataControls" xml:space="preserve">
+    <value>データコントロール -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksDistributedQueries" xml:space="preserve">
+    <value>分散クエリのストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksEngineSP" xml:space="preserve">
+    <value>データベースエンジンのストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksFullTextSearch" xml:space="preserve">
+    <value>フルテキスト検索ストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksGeneralExtended" xml:space="preserve">
+    <value>汎用拡張ストアドプロシージャのスクリプト化 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksGeneralTSQL" xml:space="preserve">
+    <value>TSQLの生成 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksIntegrationServicesTable" xml:space="preserve">
+    <value>インテグレーションサービス テーブル -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksLogShipping" xml:space="preserve">
+    <value>ログ配布 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMail" xml:space="preserve">
+    <value>データベースメール ストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMaintenance" xml:space="preserve">
+    <value>データベース メンテナンスプラン -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMetadataFunction" xml:space="preserve">
+    <value>メタデータ関数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksOLEAutomationSP" xml:space="preserve">
+    <value>OLE オートメーション ストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksOLEDBTable" xml:space="preserve">
+    <value>OLEDB テーブル -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksProfilerSP" xml:space="preserve">
+    <value>Profiler ストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksReplicationSP" xml:space="preserve">
+    <value>レプリケーション ストアドプロシージャ-- {0}</value>
+  </data>
+  <data name="CompatibilityChecksReplicationTable" xml:space="preserve">
+    <value>レプリケーションテーブル -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksRowsetFunction" xml:space="preserve">
+    <value>行セット関数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSecurityFunction" xml:space="preserve">
+    <value>セキュリティ関数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSecuritySP" xml:space="preserve">
+    <value>セキュリティ ストアドプロシージャ  -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLMailSP" xml:space="preserve">
+    <value>SQL Mailストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLServerAgentSP" xml:space="preserve">
+    <value>SQL Server Agentストアドプロシージャ -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLServerAgentTable" xml:space="preserve">
+    <value>SQL Server Agent テーブル -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemCatalogView" xml:space="preserve">
+    <value>システムカタログ ビュー -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemFunction" xml:space="preserve">
+    <value>システム関数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemStatisticalFunction" xml:space="preserve">
+    <value>システム統計関数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksUnclassified" xml:space="preserve">
+    <value>未分類 -- {0}</value>
+  </data>
+  <data name="DatabaseExists" xml:space="preserve">
+    <value>データベースが存在しています。</value>
+  </data>
+  <data name="DeleteDatabase" xml:space="preserve">
+    <value>データベースを削除します。</value>
+  </data>
+  <data name="DialogFilterRTF" xml:space="preserve">
+    <value>Rich Text Format files (*.rtf)|*.rtf|TSQL File (*.sql)|*.sql|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterSQLRTF" xml:space="preserve">
+    <value>TSQL File (*.sql)|*.sql|Rich Text Format files (*.rtf)|*.rtf|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterTrace" xml:space="preserve">
+    <value>SQL Profiler trace files (*.trc)|*.trc|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterTSQL" xml:space="preserve">
+    <value>TSQL files (*.sql)|*.sql|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogTitleTrace" xml:space="preserve">
+    <value>分析するSQL Profiler トレースファイルの選択</value>
+  </data>
+  <data name="DialogTitleTSQL" xml:space="preserve">
+    <value>TSQL ファイルの選択</value>
+  </data>
+  <data name="Discovering" xml:space="preserve">
+    <value>発見: {1} の {0}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>完了！</value>
+  </data>
+  <data name="ErrorCreatingDB" xml:space="preserve">
+    <value>データベース作成のエラー</value>
+  </data>
+  <data name="MessageAnalysisFailed" xml:space="preserve">
+    <value>分析失敗: {0}</value>
+  </data>
+  <data name="MessageAnalysisFailedAt" xml:space="preserve">
+    <value>{0}で分析に失敗しました。</value>
+  </data>
+  <data name="MessageAreYouSure" xml:space="preserve">
+    <value>{0} データベースを削除しても問題ありませんか?</value>
+  </data>
+  <data name="MessageCalculatingNumberOrRecs" xml:space="preserve">
+    <value>レコード数の計算中</value>
+  </data>
+  <data name="MessageCalculatingSize" xml:space="preserve">
+    <value>容量計算中 ...</value>
+  </data>
+  <data name="MessageCanceled" xml:space="preserve">
+    <value>キャンセルしました</value>
+  </data>
+  <data name="MessageCanceledProcessing" xml:space="preserve">
+    <value>{0}への接続をキャンセルしました。 ...</value>
+  </data>
+  <data name="MessageCreatingDropScripts" xml:space="preserve">
+    <value>DROPスクリプトの生成 ...</value>
+  </data>
+  <data name="MessageDatabaseExists" xml:space="preserve">
+    <value>データベースが存在しています。他の名前を入力してください。</value>
+  </data>
+  <data name="MessageExecuteScript" xml:space="preserve">
+    <value>対象サーバにスクリプトを実行しますか？</value>
+  </data>
+  <data name="MessageFileDoesNotExists" xml:space="preserve">
+    <value>選択されたファイルが存在しません。</value>
+  </data>
+  <data name="MessageFinishedNoAnalysis" xml:space="preserve">
+    <value>スクリプト化の分析をしていません。
+{0} まで完了しました -- UTC -&gt; {1}
+総経過時間: {2}</value>
+  </data>
+  <data name="MessageFinishedWithAnalysis" xml:space="preserve">
+    <value>{0} に分析が完了しました。 -- UTC -&gt; {1}
+問題があった場合は、下に詳細が表示されます。総経過時間: {2}</value>
+  </data>
+  <data name="MessageHour" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="MessageHours" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="MessageMinute" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="MessageMinutes" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="MessageProcessingStatus" xml:space="preserve">
+    <value>{1} の内 {0}まで完了しました。</value>
+  </data>
+  <data name="MessageProcessStarted" xml:space="preserve">
+    <value>{0} に開始しました。 -- UTC -&gt; {1} ... </value>
+  </data>
+  <data name="MessageReadyToGenerate" xml:space="preserve">
+    <value>SQLスクリプト生成の準備ができましたか？</value>
+  </data>
+  <data name="MessageSecond" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="MessageSeconds" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="MessageSorting" xml:space="preserve">
+    <value>オブジェクトの依存関係で並べ替えます ...</value>
+  </data>
+  <data name="ObjectTypeRoles" xml:space="preserve">
+    <value>ロール</value>
+  </data>
+  <data name="ObjectTypeSchemas" xml:space="preserve">
+    <value>スキーマ</value>
+  </data>
+  <data name="ObjectTypeStoredProcedures" xml:space="preserve">
+    <value>ストアドプロシージャ</value>
+  </data>
+  <data name="ObjectTypeTables" xml:space="preserve">
+    <value>テーブル</value>
+  </data>
+  <data name="ObjectTypeTriggers" xml:space="preserve">
+    <value>トリガー</value>
+  </data>
+  <data name="ObjectTypeUDF" xml:space="preserve">
+    <value>ユーザ定義関数の選択</value>
+  </data>
+  <data name="ObjectTypeUDT" xml:space="preserve">
+    <value>ユーザー定義データ型の選択</value>
+  </data>
+  <data name="ObjectTypeUDTT" xml:space="preserve">
+    <value>ユーザ定義テーブル型</value>
+  </data>
+  <data name="ObjectTypeViews" xml:space="preserve">
+    <value>ビュー</value>
+  </data>
+  <data name="ObjectTypeXMLSchemaCollections" xml:space="preserve">
+    <value>XMLスキーマコレクション</value>
+  </data>
+  <data name="SaveAzureResults" xml:space="preserve">
+    <value>SQL Azureの結果を保存</value>
+  </data>
+  <data name="SaveResults" xml:space="preserve">
+    <value>結果を保存</value>
+  </data>
+  <data name="SaveSQLScript" xml:space="preserve">
+    <value>SQL スクリプトの保存</value>
+  </data>
+  <data name="SQLAzureCloudName" xml:space="preserve">
+    <value>database.windows.net</value>
+  </data>
+  <data name="TitleExecuteScript" xml:space="preserve">
+    <value>スクリプトの実行</value>
+  </data>
+  <data name="TitleGenerateScript" xml:space="preserve">
+    <value>スクリプトの生成</value>
+  </data>
+  <data name="TreeNodeDatabase" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="TreeNodeGeneral" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="TreeNodeIfNotExists" xml:space="preserve">
+    <value>存在しない場合、生成 -- </value>
+  </data>
+  <data name="TreeNodeObjects" xml:space="preserve">
+    <value>オブジェクト</value>
+  </data>
+  <data name="TreeNodeOptions" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="TreeNodeScriptConstraints" xml:space="preserve">
+    <value>チェック制約のスクリプト化 -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptData" xml:space="preserve">
+    <value>テーブルとデータのスクリプト化 --  {0}</value>
+  </data>
+  <data name="TreeNodeScriptDefaults" xml:space="preserve">
+    <value>規定値のスクリプト化 -- </value>
+  </data>
+  <data name="TreeNodeScriptDropCreate" xml:space="preserve">
+    <value>DROP と CREATEのスクリプト化 --</value>
+  </data>
+  <data name="TreeNodeScriptForeignKeys" xml:space="preserve">
+    <value>外部キーのスクリプト化 --  {0}</value>
+  </data>
+  <data name="TreeNodeScriptHeaders" xml:space="preserve">
+    <value>ヘッダーのスクリプト化 --</value>
+  </data>
+  <data name="TreeNodeScriptIndexes" xml:space="preserve">
+    <value>インデックスのスクリプト化 --  {0}</value>
+  </data>
+  <data name="TreeNodeScriptPrimaryKey" xml:space="preserve">
+    <value>プライマリキーのスクリプト化 --  {0}</value>
+  </data>
+  <data name="TreeNodeScriptUniqueKeys" xml:space="preserve">
+    <value>一意キーのスクリプト化 -- {0}</value>
+  </data>
+  <data name="TreeNodeTableView" xml:space="preserve">
+    <value>Table / View　オプション</value>
+  </data>
+  <data name="TreeNodeTSQLCompatibility" xml:space="preserve">
+    <value>TSQL互換性チェック</value>
+  </data>
+  <data name="UseDefaultSettings" xml:space="preserve">
+    <value>規定値を使用する。</value>
+  </data>
+  <data name="WizardAction" xml:space="preserve">
+    <value>処理の選択</value>
+  </data>
+  <data name="WizardActionDesc" xml:space="preserve">
+    <value>ウィザードで処理したいオプションを選択してください。</value>
+  </data>
+  <data name="WizardActionObjectTypes" xml:space="preserve">
+    <value>オブジェクトの選択</value>
+  </data>
+  <data name="WizardActionObjectTypesDesc" xml:space="preserve">
+    <value>スクリプト化するデータベース オブジェクトの選択</value>
+  </data>
+  <data name="WizardActionResultsSummary" xml:space="preserve">
+    <value>結果</value>
+  </data>
+  <data name="WizardActionResultsSummaryDesc" xml:space="preserve">
+    <value>スクリプト化と分析の結果</value>
+  </data>
+  <data name="WizardActionScriptWizardSummary" xml:space="preserve">
+    <value>スクリプトウィザード設定確認</value>
+  </data>
+  <data name="WizardActionScriptWizardSummaryDesc" xml:space="preserve">
+    <value>ウィザード設定の確認</value>
+  </data>
+  <data name="WizardActionSelectSource" xml:space="preserve">
+    <value>移行元の選択</value>
+  </data>
+  <data name="WizardActionSelectSourceDesc" xml:space="preserve">
+    <value>スクリプト化する移行元の選択</value>
+  </data>
+  <data name="WizardActionSetupTargetConnection" xml:space="preserve">
+    <value>対象サーバーへの接続情報の設定</value>
+  </data>
+  <data name="WizardActionSetupTargetConnectionDesc" xml:space="preserve">
+    <value>対象サーバーへの接続情報を入力してください。</value>
+  </data>
+  <data name="WizardActionTargetResults" xml:space="preserve">
+    <value>対象サーバからのレスポンス</value>
+  </data>
+  <data name="WizardActionTargetResultsDesc" xml:space="preserve">
+    <value>TSQLから対象サーバへの実行結果</value>
+  </data>
+  <data name="CircularDependencies" xml:space="preserve">
+    <value>円形のテーブルの属国が次のテーブルの上に見いだされました:</value>
+  </data>
+  <data name="DataUploadBeforeForeignKeys" xml:space="preserve">
+    <value>外国のキーが加えられる前に、データがアップロードされるでしょう。</value>
+  </data>
+  <data name="Encrypted" xml:space="preserve">
+    <value>{0} 暗号化される</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="TreeNodeEncrypted" xml:space="preserve">
+    <value>暗号化されたオブジェクトが書かれないでしょう</value>
+  </data>
+  <data name="CreateDatabase" xml:space="preserve">
+    <value>データベースを作成</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationCreate" xml:space="preserve">
+    <value>作成</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationCreated" xml:space="preserve">
+    <value>フェデレーション {0} が作成されました!</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDrop" xml:space="preserve">
+    <value>フェデレーション {0} を削除しますか?</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDropHeader" xml:space="preserve">
+    <value>{0} 削除オプション</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDropped" xml:space="preserve">
+    <value>フェデレーション {0} を削除しました!</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationInfo" xml:space="preserve">
+    <value>{1} はフェデレーション {0} のメンバーです</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberCreated" xml:space="preserve">
+    <value>スプリットポイントが作成されました!</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberDropped" xml:space="preserve">
+    <value>スプリットポイントが削除されました!</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberHigh" xml:space="preserve">
+    <value>高（最大）</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberLow" xml:space="preserve">
+    <value>低（{0})</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationVarbinaryRange" xml:space="preserve">
+    <value>Varbinary 型のサイズには1から900までの値をしてしてください</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>再実行</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="SelectDatabase" xml:space="preserve">
+    <value>データベースを選択</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="SelectFederationMember" xml:space="preserve">
+    <value>フェデレーションメンバーを選択</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="TreeNodeEncrypted1" xml:space="preserve">
+    <value>暗号化オブジェクトはスクリプト化されません</value>
+    <comment>v3.5.6</comment>
+  </data>
+</root>

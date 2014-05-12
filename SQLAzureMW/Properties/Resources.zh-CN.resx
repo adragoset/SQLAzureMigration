@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalysisComplete" xml:space="preserve">
+    <value>SQLAzureMW已经完成分析工作，所有发现的问题都列在上方的报表里。</value>
+  </data>
+  <data name="AzureUserName" xml:space="preserve">
+    <value>Azure需要在你的用户名后面加上扩展名“{0}”。需要自动问您加上它吗？</value>
+  </data>
+  <data name="AzureUserNameWarning" xml:space="preserve">
+    <value>Azure用户名要求</value>
+  </data>
+  <data name="CompatibilityChecks" xml:space="preserve">
+    <value>兼容性检测 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksActiveDirectory" xml:space="preserve">
+    <value>活动目录存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksBackupRestore" xml:space="preserve">
+    <value>备份和恢复表 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksCDC" xml:space="preserve">
+    <value>改变数据捕获 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksCDCT" xml:space="preserve">
+    <value>改变数据捕获表 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksDataControls" xml:space="preserve">
+    <value>数据控制 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksDistributedQueries" xml:space="preserve">
+    <value>分布式查询存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksEngineSP" xml:space="preserve">
+    <value>数据库引擎存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksFullTextSearch" xml:space="preserve">
+    <value>全文搜索存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksGeneralExtended" xml:space="preserve">
+    <value>一般性扩充的存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksGeneralTSQL" xml:space="preserve">
+    <value>一般性TSQL -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksIntegrationServicesTable" xml:space="preserve">
+    <value>Integration Services表 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksLogShipping" xml:space="preserve">
+    <value>日志文件传输 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMail" xml:space="preserve">
+    <value>数据库邮箱存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMaintenance" xml:space="preserve">
+    <value>数据库维护计划 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMetadataFunction" xml:space="preserve">
+    <value>元数据函数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksOLEAutomationSP" xml:space="preserve">
+    <value>OLE Automation存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksOLEDBTable" xml:space="preserve">
+    <value>OLEDB表 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksProfilerSP" xml:space="preserve">
+    <value>Profiler存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksReplicationSP" xml:space="preserve">
+    <value>Replication存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksReplicationTable" xml:space="preserve">
+    <value>Replication表 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksRowsetFunction" xml:space="preserve">
+    <value>Rowset函数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSecurityFunction" xml:space="preserve">
+    <value>安全函数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSecuritySP" xml:space="preserve">
+    <value>安全存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLMailSP" xml:space="preserve">
+    <value>SQL邮件存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLServerAgentSP" xml:space="preserve">
+    <value>SQL Server 代理存储过程 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLServerAgentTable" xml:space="preserve">
+    <value>SQL Server 代理表 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemCatalogView" xml:space="preserve">
+    <value>System Catalog视图 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemFunction" xml:space="preserve">
+    <value>系统函数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemStatisticalFunction" xml:space="preserve">
+    <value>系统统计函数 -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksUnclassified" xml:space="preserve">
+    <value>未分类的 -- {0}</value>
+  </data>
+  <data name="DatabaseExists" xml:space="preserve">
+    <value>Database Exists</value>
+  </data>
+  <data name="DeleteDatabase" xml:space="preserve">
+    <value>删除数据库</value>
+  </data>
+  <data name="DialogFilterRTF" xml:space="preserve">
+    <value>Rich Text Format files (*.rtf)|*.rtf|TSQL File (*.sql)|*.sql|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterSQLRTF" xml:space="preserve">
+    <value>TSQL File (*.sql)|*.sql|Rich Text Format files (*.rtf)|*.rtf|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterTrace" xml:space="preserve">
+    <value>SQL Profiler trace files (*.trc)|*.trc|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterTSQL" xml:space="preserve">
+    <value>TSQL files (*.sql)|*.sql|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogTitleTrace" xml:space="preserve">
+    <value>选择要分析的SQL Profiler跟踪文件</value>
+  </data>
+  <data name="DialogTitleTSQL" xml:space="preserve">
+    <value>选择TSQL文件</value>
+  </data>
+  <data name="Discovering" xml:space="preserve">
+    <value>发现: {0} 之 {1}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>完成(\^o^/)</value>
+  </data>
+  <data name="ErrorCreatingDB" xml:space="preserve">
+    <value>创建数据库出现问题</value>
+  </data>
+  <data name="MessageAnalysisFailed" xml:space="preserve">
+    <value>分析失败：{0}</value>
+  </data>
+  <data name="MessageAnalysisFailedAt" xml:space="preserve">
+    <value>分析失败于{0}</value>
+  </data>
+  <data name="MessageAreYouSure" xml:space="preserve">
+    <value>你确定要删除数据库{0}?</value>
+  </data>
+  <data name="MessageCalculatingNumberOrRecs" xml:space="preserve">
+    <value>计算需要处理的记录的数量</value>
+  </data>
+  <data name="MessageCalculatingSize" xml:space="preserve">
+    <value>正在计算大小...</value>
+  </data>
+  <data name="MessageCanceled" xml:space="preserve">
+    <value>取消了！</value>
+  </data>
+  <data name="MessageCanceledProcessing" xml:space="preserve">
+    <value>任务取消于{0}...</value>
+  </data>
+  <data name="MessageCreatingDropScripts" xml:space="preserve">
+    <value>创建DROP脚本...</value>
+  </data>
+  <data name="MessageDatabaseExists" xml:space="preserve">
+    <value>抱歉，数据库已经存在。请选择其他名字。</value>
+  </data>
+  <data name="MessageExecuteScript" xml:space="preserve">
+    <value>在目标服务器上运行脚本？</value>
+  </data>
+  <data name="MessageFileDoesNotExists" xml:space="preserve">
+    <value>抱歉，你输入的文件不存在</value>
+  </data>
+  <data name="MessageFinishedNoAnalysis" xml:space="preserve">
+    <value>脚本没有分析.
+任务结束于 {0} -- UTC -&gt; {1}
+任务总共耗时: {2}</value>
+  </data>
+  <data name="MessageFinishedWithAnalysis" xml:space="preserve">
+    <value>分析结束于 {0} -- UTC -&gt; {1}
+任何发现的问题会显示在上方的报表中.
+任务总共耗时： {2}</value>
+  </data>
+  <data name="MessageHour" xml:space="preserve">
+    <value> 小时, </value>
+  </data>
+  <data name="MessageHours" xml:space="preserve">
+    <value> 小时, </value>
+  </data>
+  <data name="MessageMinute" xml:space="preserve">
+    <value> 分钟 </value>
+  </data>
+  <data name="MessageMinutes" xml:space="preserve">
+    <value> 分钟 </value>
+  </data>
+  <data name="MessageProcessingStatus" xml:space="preserve">
+    <value>正在处理 {0} 之 {1}</value>
+  </data>
+  <data name="MessageProcessStarted" xml:space="preserve">
+    <value>任务开始与 {0} -- UTC -&gt; {1} ... </value>
+  </data>
+  <data name="MessageReadyToGenerate" xml:space="preserve">
+    <value>现在生成SQL脚本吗？</value>
+  </data>
+  <data name="MessageSecond" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="MessageSeconds" xml:space="preserve">
+    <value> 秒</value>
+  </data>
+  <data name="MessageSorting" xml:space="preserve">
+    <value>正在按照依赖关系排列对象 ...</value>
+  </data>
+  <data name="ObjectTypeRoles" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="ObjectTypeSchemas" xml:space="preserve">
+    <value>架构</value>
+  </data>
+  <data name="ObjectTypeStoredProcedures" xml:space="preserve">
+    <value>存储过程</value>
+  </data>
+  <data name="ObjectTypeTables" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="ObjectTypeTriggers" xml:space="preserve">
+    <value>触发器</value>
+  </data>
+  <data name="ObjectTypeUDF" xml:space="preserve">
+    <value>用户定义的函数</value>
+  </data>
+  <data name="ObjectTypeUDT" xml:space="preserve">
+    <value>用户定义的数据类型</value>
+  </data>
+  <data name="ObjectTypeUDTT" xml:space="preserve">
+    <value>用户定义的数据类型</value>
+  </data>
+  <data name="ObjectTypeViews" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="ObjectTypeXMLSchemaCollections" xml:space="preserve">
+    <value>XML Schema 集合</value>
+  </data>
+  <data name="SaveAzureResults" xml:space="preserve">
+    <value>保存SQL Azure结果</value>
+  </data>
+  <data name="SaveResults" xml:space="preserve">
+    <value>保存结果汇总</value>
+  </data>
+  <data name="SaveSQLScript" xml:space="preserve">
+    <value>保存SQL脚本</value>
+  </data>
+  <data name="SQLAzureCloudName" xml:space="preserve">
+    <value>database.windows.net</value>
+  </data>
+  <data name="TitleExecuteScript" xml:space="preserve">
+    <value>执行脚本</value>
+  </data>
+  <data name="TitleGenerateScript" xml:space="preserve">
+    <value>生成脚本</value>
+  </data>
+  <data name="TreeNodeDatabase" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="TreeNodeGeneral" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="TreeNodeIfNotExists" xml:space="preserve">
+    <value>包含 If Not Exists -- </value>
+  </data>
+  <data name="TreeNodeObjects" xml:space="preserve">
+    <value>对象</value>
+  </data>
+  <data name="TreeNodeOptions" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="TreeNodeScriptConstraints" xml:space="preserve">
+    <value>生成Check约束 -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptData" xml:space="preserve">
+    <value>生成表/数据 -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptDefaults" xml:space="preserve">
+    <value>生成默认 -- </value>
+  </data>
+  <data name="TreeNodeScriptDropCreate" xml:space="preserve">
+    <value>生成DROP和CREATE -- </value>
+  </data>
+  <data name="TreeNodeScriptForeignKeys" xml:space="preserve">
+    <value>生成外键 -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptHeaders" xml:space="preserve">
+    <value>生成头 -- </value>
+  </data>
+  <data name="TreeNodeScriptIndexes" xml:space="preserve">
+    <value>生成索引 -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptPrimaryKey" xml:space="preserve">
+    <value>生成主键 -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptUniqueKeys" xml:space="preserve">
+    <value>生成唯一键 -- {0}</value>
+  </data>
+  <data name="TreeNodeTableView" xml:space="preserve">
+    <value>表/视图选项</value>
+  </data>
+  <data name="TreeNodeTSQLCompatibility" xml:space="preserve">
+    <value>TSQL兼容性检查</value>
+  </data>
+  <data name="WizardAction" xml:space="preserve">
+    <value>选择任务</value>
+  </data>
+  <data name="WizardActionDesc" xml:space="preserve">
+    <value>选择您希望向导完成的任务</value>
+  </data>
+  <data name="WizardActionObjectTypes" xml:space="preserve">
+    <value>选择对象</value>
+  </data>
+  <data name="WizardActionObjectTypesDesc" xml:space="preserve">
+    <value>选择需要生成脚本的对象</value>
+  </data>
+  <data name="WizardActionResultsSummary" xml:space="preserve">
+    <value>结果汇总</value>
+  </data>
+  <data name="WizardActionResultsSummaryDesc" xml:space="preserve">
+    <value>脚本和分析汇总</value>
+  </data>
+  <data name="WizardActionScriptWizardSummary" xml:space="preserve">
+    <value>脚本向导汇总</value>
+  </data>
+  <data name="WizardActionScriptWizardSummaryDesc" xml:space="preserve">
+    <value>检查你的选项。</value>
+  </data>
+  <data name="WizardActionSelectSource" xml:space="preserve">
+    <value>选择源</value>
+  </data>
+  <data name="WizardActionSelectSourceDesc" xml:space="preserve">
+    <value>选择你需要生成脚本的源</value>
+  </data>
+  <data name="WizardActionSetupTargetConnection" xml:space="preserve">
+    <value>设置目标服务器连接</value>
+  </data>
+  <data name="WizardActionSetupTargetConnectionDesc" xml:space="preserve">
+    <value>输入目标服务器的相关信息</value>
+  </data>
+  <data name="WizardActionTargetResults" xml:space="preserve">
+    <value>目标服务器回应</value>
+  </data>
+  <data name="WizardActionTargetResultsDesc" xml:space="preserve">
+    <value>目标服务器执行TSQL的回应</value>
+  </data>
+  <data name="CircularDependencies" xml:space="preserve">
+    <value>在如下表中发现循环倚赖：</value>
+  </data>
+  <data name="DataUploadBeforeForeignKeys" xml:space="preserve">
+    <value>数据会在设置外键前上传</value>
+  </data>
+  <data name="Encrypted" xml:space="preserve">
+    <value>{0} 已加密</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="TreeNodeEncrypted" xml:space="preserve">
+    <value>加密的对象不会产生脚本</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="CreateDatabase" xml:space="preserve">
+    <value>创建数据库</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationCreate" xml:space="preserve">
+    <value>创建</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationCreated" xml:space="preserve">
+    <value>联邦{0}创建好了</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDelete" xml:space="preserve">
+    <value>删除</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDrop" xml:space="preserve">
+    <value>是否删除联邦{0}?</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDropHeader" xml:space="preserve">
+    <value>{0}删除选项</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDropped" xml:space="preserve">
+    <value>联邦{0}删除完成</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationInfo" xml:space="preserve">
+    <value>正在处理联邦{0}和成{1}</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberCreated" xml:space="preserve">
+    <value>分割点创建好了</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberDropped" xml:space="preserve">
+    <value>分割点删除了</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberHigh" xml:space="preserve">
+    <value>高{MAX}</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberLow" xml:space="preserve">
+    <value>低{0}</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationVarbinaryRange" xml:space="preserve">
+    <value>抱歉，VarBinary范围要在1到900之间</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>重试</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="SelectDatabase" xml:space="preserve">
+    <value>选择数据库</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="SelectFederationMember" xml:space="preserve">
+    <value>选择联邦成员</value>
+    <comment>v3.7.8</comment>
+  </data>
+</root>

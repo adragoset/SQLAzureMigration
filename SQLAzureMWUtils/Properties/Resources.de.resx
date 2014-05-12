@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddingClusteredIndex" xml:space="preserve">
+    <value>Füge "clustered index" {0} von {1} hinzu. Kann später geändert werden.</value>
+  </data>
+  <data name="AnalysisComplete" xml:space="preserve">
+    <value>SQLAzureMW hat die Analyse abgeschlossen. Alle offenen Punkte werden oben angezeigt.</value>
+  </data>
+  <data name="AppendingScript" xml:space="preserve">
+    <value>Füge Skript hinzu: {0} von {1}</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Skript Tabelle - </value>
+  </data>
+  <data name="AzureUserName" xml:space="preserve">
+    <value>Azure benötigt die Erweiterung {0} für den Benutzernamen.  Automatisch ergänzen?</value>
+  </data>
+  <data name="AzureUserNameWarning" xml:space="preserve">
+    <value>Voraussetzungen für Azure Benutzernamen</value>
+  </data>
+  <data name="BCPCouldNotFind1" xml:space="preserve">
+    <value>SQLAzureMW konnte die Anzahl der kopierten Zeilen in der BCP Ausgabe nicht finden.  Dies ist der BCP Befehl:</value>
+  </data>
+  <data name="BCPExpectedRegexMatch" xml:space="preserve">
+    <value>Genutzter Regex String: </value>
+  </data>
+  <data name="BCPHereIsOutput" xml:space="preserve">
+    <value>BCP Ausgabe:</value>
+  </data>
+  <data name="BCPOutputFile" xml:space="preserve">
+    <value>BCP Ausgabedatei: </value>
+  </data>
+  <data name="BCPProcessAborting" xml:space="preserve">
+    <value>BCP Upload wird abgebrochen ...</value>
+  </data>
+  <data name="BCPProcessFailed" xml:space="preserve">
+    <value> --&gt; BCP Upload Prozess fehlgeschlagen:</value>
+  </data>
+  <data name="BCPProcessingStatus" xml:space="preserve">
+    <value>Bearbeitungsschritt {0} von {1}</value>
+  </data>
+  <data name="BCPTempFileDeleteFailed" xml:space="preserve">
+    <value> --&gt; Konnte temp. BCP Datei nicht löschen.  Fehler = {0}</value>
+  </data>
+  <data name="BCPUploadingData" xml:space="preserve">
+    <value> --&gt; Sende Daten zu {0}
+ --&gt; BCP Befehl: {1}</value>
+  </data>
+  <data name="BCPUsing" xml:space="preserve">
+    <value>Verwende BCP um die Daten der Tabelle zu lesen </value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Abgebrochen!</value>
+  </data>
+  <data name="ChangingClusteredIndex" xml:space="preserve">
+    <value>Wandle Index {0}.{1} zu einem clustered Index.  Alternativ kann ein anderer Index gewählt werden.</value>
+  </data>
+  <data name="ChooseTable" xml:space="preserve">
+    <value>Bitte Tabelle auswählen</value>
+  </data>
+  <data name="Discovering" xml:space="preserve">
+    <value>Untersuche: {0} von {1}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Fertig!</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>--&gt; Fehler </value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>Fehler ... </value>
+  </data>
+  <data name="ErrorApplicationConfiguration" xml:space="preserve">
+    <value>Application Configuration Fehler ...</value>
+  </data>
+  <data name="ErrorLanguageSectionNotFound" xml:space="preserve">
+    <value>Konnte für die Analyse der BCP Ausgabe keinen zugehörigen Sprachabschnitt (language section) in {0}.config finden. Fortfahren nicht möglich.</value>
+  </data>
+  <data name="ErrorNumAndMsg" xml:space="preserve">
+    <value> --&gt; Fehler #: {0} -- {1}</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="LocalizedBCPCanNotFind" xml:space="preserve">
+    <value>Konnte für die Analyse der BCP Ausgabe den Sprachabschnitt (language section) {0} in {1}.config finden. Fortfahren nicht möglich.</value>
+  </data>
+  <data name="NoClusteredIndex" xml:space="preserve">
+    <value>--~----------------------------------------------------------------------------------------------------
+--~ Tabelle {0} hat keinen clustered Index.
+--~ Es muss ein clustered Index erstellt werden, bevor in der Tabelle Daten gespeichert werden können.
+--~----------------------------------------------------------------------------------------------------</value>
+  </data>
+  <data name="NoClusteredIndex2" xml:space="preserve">
+    <value>Tabelle {0} hat keinen "clustered index".
+Es muss ein "clustered index" erstellt werden, bevor in der Tabelle Daten gespeichert werden können.</value>
+  </data>
+  <data name="NoDatabaseSelected" xml:space="preserve">
+    <value>Keine Datenbank ausgewählt</value>
+  </data>
+  <data name="NoIndexableColumns" xml:space="preserve">
+    <value>Tabelle {0} ist ein Heap und besitzt keine indizierbaren Spalten. Bitte einen "clustered index" hinzufügen, bevor die Tabelle migriert werden kann.</value>
+  </data>
+  <data name="NoSqlServers" xml:space="preserve">
+    <value>Keine SQL Server im Netzwerk gefunden!</value>
+  </data>
+  <data name="ObjectTypeRoles" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="ObjectTypeSchemas" xml:space="preserve">
+    <value>Schemata</value>
+  </data>
+  <data name="ObjectTypeStoredProcedures" xml:space="preserve">
+    <value>Stored Procedures</value>
+  </data>
+  <data name="ObjectTypeTables" xml:space="preserve">
+    <value>Tabellen</value>
+  </data>
+  <data name="ObjectTypeTriggers" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="ObjectTypeUDF" xml:space="preserve">
+    <value>Benutzerdefiierte Funktionen</value>
+  </data>
+  <data name="ObjectTypeUDT" xml:space="preserve">
+    <value>Benutzerdefinierte Datentypen</value>
+  </data>
+  <data name="ObjectTypeUDTT" xml:space="preserve">
+    <value>BenutzerdefinierteTabellentypen</value>
+  </data>
+  <data name="ObjectTypeViews" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="ObjectTypeXMLSchemaCollections" xml:space="preserve">
+    <value>XML Schema-Sammlungen</value>
+  </data>
+  <data name="ProcessAborting" xml:space="preserve">
+    <value>Fehler #: {0} -- {1}
+{2}
+Prozess wird abgebrochen bei {3} ...</value>
+  </data>
+  <data name="ProcessCanceledAt" xml:space="preserve">
+    <value>Prozess abgebrochen bei {0} ...</value>
+  </data>
+  <data name="ProcessingFinished" xml:space="preserve">
+    <value>Prozess fertiggestellt um {0} -- UTC -&gt; {1}
+Gesamtzeit: {2}</value>
+  </data>
+  <data name="ProcessStarted" xml:space="preserve">
+    <value>Prozess gestartet um {0} -- UTC -&gt; {1} ... </value>
+  </data>
+  <data name="RemoveComment" xml:space="preserve">
+    <value>--~</value>
+  </data>
+  <data name="RemoveCommentEnd" xml:space="preserve">
+    <value>~*/</value>
+  </data>
+  <data name="RemoveCommentStart" xml:space="preserve">
+    <value>/*~</value>
+  </data>
+  <data name="Scripting" xml:space="preserve">
+    <value>Scripte: {0} von {1}</value>
+  </data>
+  <data name="ScriptOptionsGeneral" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="ScriptOptionsOverride" xml:space="preserve">
+    <value>Überschreiben: Alle Kompatibilitätsprüfungen durchführen</value>
+  </data>
+  <data name="ScriptOptionsOverrideNot" xml:space="preserve">
+    <value>Überschreiben: Keine Kompatibilitätsprüfungen durchführen</value>
+  </data>
+  <data name="ScriptOptionsTableData" xml:space="preserve">
+    <value>nur Daten</value>
+  </data>
+  <data name="ScriptOptionsTableDataDesc" xml:space="preserve">
+    <value>Scripte Tabellenschema, Daten oder beides.</value>
+  </data>
+  <data name="ScriptOptionsTableDataDisplayName" xml:space="preserve">
+    <value>Script Tabelle/ Daten</value>
+  </data>
+  <data name="ScriptOptionsTableSchema" xml:space="preserve">
+    <value>Nur Tabellenschema</value>
+  </data>
+  <data name="ScriptOptionsTableSchemaData" xml:space="preserve">
+    <value>Tabellenschema mit Daten</value>
+  </data>
+  <data name="ScriptOptionsTableView" xml:space="preserve">
+    <value>Table/View Optionen</value>
+  </data>
+  <data name="ScriptOptionsTSQLCompatibility" xml:space="preserve">
+    <value>TSQL Kompatibilitätsprüfungen</value>
+  </data>
+  <data name="ScriptOptionsUseDefault" xml:space="preserve">
+    <value>Standardeinstellungen nutzen</value>
+  </data>
+  <data name="SMOOptionsGeneralDefaults" xml:space="preserve">
+    <value>Script the default values.</value>
+  </data>
+  <data name="SOSADSPDesc" xml:space="preserve">
+    <value>Stored Procedures für Active Directory.</value>
+  </data>
+  <data name="SOSADSPDisplayName" xml:space="preserve">
+    <value>Stored Procedures für Active Directory</value>
+  </data>
+  <data name="SOSAgentSPDesc" xml:space="preserve">
+    <value>Stored Procedures des SQL Server Agent.</value>
+  </data>
+  <data name="SOSAgentSPDisplayName" xml:space="preserve">
+    <value>Stored Procedures des SQL Server Agent</value>
+  </data>
+  <data name="SOSAgentTDesc" xml:space="preserve">
+    <value>Tabellen des SQL Server Agent.</value>
+  </data>
+  <data name="SOSAgentTDisplayName" xml:space="preserve">
+    <value>Tabellen des SQL Server Agent</value>
+  </data>
+  <data name="SOSBackupRestoreDesc" xml:space="preserve">
+    <value>Tabellen-Backup und -Restore.</value>
+  </data>
+  <data name="SOSBackupRestoreDisplayName" xml:space="preserve">
+    <value>Tabellen-Backup und -Restore</value>
+  </data>
+  <data name="SOSCatalogVDesc" xml:space="preserve">
+    <value>System Catalog Views.</value>
+  </data>
+  <data name="SOSCatalogVDisplayName" xml:space="preserve">
+    <value>System Catalog Views</value>
+  </data>
+  <data name="SOSCDCDesc" xml:space="preserve">
+    <value>Ändere Data Capture Stored Procedures.</value>
+  </data>
+  <data name="SOSCDCDisplayName" xml:space="preserve">
+    <value>Ändere Data Capture</value>
+  </data>
+  <data name="SOSCDCTDesc" xml:space="preserve">
+    <value>Ändere Data Capture Tables.</value>
+  </data>
+  <data name="SOSCDCTDisplayName" xml:space="preserve">
+    <value>Ändere Data Capture Tables</value>
+  </data>
+  <data name="SOSCheckDesc" xml:space="preserve">
+    <value>Skripte Check Constraints pro Tabelle oder View.</value>
+  </data>
+  <data name="SOSCheckDisplayName" xml:space="preserve">
+    <value>Skripte Check Constraints</value>
+  </data>
+  <data name="SOSCompatibilityDesc" xml:space="preserve">
+    <value>Diese Einstellung ermöglicht das Überschreiben der Kompatibilitätsprüfungen. Möglichkeiten: Prüfungen erzwingen, Prüfungen ignorieren oder benutzerdefinierte TSQL-Prüfungen.</value>
+  </data>
+  <data name="SOSCompatibilityDisplayName" xml:space="preserve">
+    <value>Kompatibilitätsprüfungen</value>
+  </data>
+  <data name="SOSCreate" xml:space="preserve">
+    <value>Skripte CREATE</value>
+  </data>
+  <data name="SOSDBDCDesc" xml:space="preserve">
+    <value>Data Controls.</value>
+  </data>
+  <data name="SOSDBDCDisplayName" xml:space="preserve">
+    <value>Data Controls</value>
+  </data>
+  <data name="SOSDBEngineSPDesc" xml:space="preserve">
+    <value>Database Engine Stored Procedures.</value>
+  </data>
+  <data name="SOSDBEngineSPDisplayName" xml:space="preserve">
+    <value>Database Engine Stored Procedures</value>
+  </data>
+  <data name="SOSDBMailSPDesc" xml:space="preserve">
+    <value>Database Mail Stored Procedures.</value>
+  </data>
+  <data name="SOSDBMailSPDisplayName" xml:space="preserve">
+    <value>Database Mail Stored Procedures</value>
+  </data>
+  <data name="SOSDBMaintDesc" xml:space="preserve">
+    <value>Wartungspläne der Datenbank.</value>
+  </data>
+  <data name="SOSDBMaintDisplayName" xml:space="preserve">
+    <value>Wartungspläne der Datenbank</value>
+  </data>
+  <data name="SOSDefaults" xml:space="preserve">
+    <value>Skripte Standards</value>
+  </data>
+  <data name="SOSDefaultsDesc" xml:space="preserve">
+    <value>Skripte Standardwerte.</value>
+  </data>
+  <data name="SOSDQSPDesc" xml:space="preserve">
+    <value>Distributed Queries Stored Procedures.</value>
+  </data>
+  <data name="SOSDQSPDisplayName" xml:space="preserve">
+    <value>Distributed Queries Stored Procedures</value>
+  </data>
+  <data name="SOSDrop" xml:space="preserve">
+    <value>Skripte DROP</value>
+  </data>
+  <data name="SOSDropCreate" xml:space="preserve">
+    <value>Skripte DROP and CREATE</value>
+  </data>
+  <data name="SOSDropCreateDesc" xml:space="preserve">
+    <value>Skripte CREATE / DROP Statements.</value>
+  </data>
+  <data name="SOSForeignKeysDesc" xml:space="preserve">
+    <value>Skripte Fremdschlüssel pro Tabelle.</value>
+  </data>
+  <data name="SOSForeignKeysDisplayName" xml:space="preserve">
+    <value>Skripte Fremdschlüssel</value>
+  </data>
+  <data name="SOSFTSSPDesc" xml:space="preserve">
+    <value>Stored Procedures für Volltestsuche.</value>
+  </data>
+  <data name="SOSFTSSPDisplayName" xml:space="preserve">
+    <value>Stored Procedures für Volltestsuche</value>
+  </data>
+  <data name="SOSGenExtSPDesc" xml:space="preserve">
+    <value>Allgemeine Extended Stored Procedures.</value>
+  </data>
+  <data name="SOSGenExtSPDisplayName" xml:space="preserve">
+    <value>Allgemeine Extended Stored Procedures</value>
+  </data>
+  <data name="SOSGenTSQLDesc" xml:space="preserve">
+    <value>Allgemeine TSQL Prüfungen (Empfohlen).</value>
+  </data>
+  <data name="SOSGenTSQLDisplayName" xml:space="preserve">
+    <value>Allgemeines TSQL</value>
+  </data>
+  <data name="SOSHeaders" xml:space="preserve">
+    <value>Skripte Header</value>
+  </data>
+  <data name="SOSHeadersDesc" xml:space="preserve">
+    <value>Beschreibende Informatioen pro Objekt einfügen.</value>
+  </data>
+  <data name="SOSIndexesDesc" xml:space="preserve">
+    <value>Skripte Check Constraints pro Tabelle.</value>
+  </data>
+  <data name="SOSIndexesDisplayName" xml:space="preserve">
+    <value>Skripte Indexe</value>
+  </data>
+  <data name="SOSISTDesc" xml:space="preserve">
+    <value>Integration Services Tabellen.</value>
+  </data>
+  <data name="SOSISTDisplayName" xml:space="preserve">
+    <value>Integration Services Tabellen</value>
+  </data>
+  <data name="SOSLSDesc" xml:space="preserve">
+    <value>Log Shipping.</value>
+  </data>
+  <data name="SOSLSDisplayName" xml:space="preserve">
+    <value>Log Shipping</value>
+  </data>
+  <data name="SOSMailSPDesc" xml:space="preserve">
+    <value>SQL Mail Stored Procedures.</value>
+  </data>
+  <data name="SOSMailSPDisplayName" xml:space="preserve">
+    <value>SQL Mail Stored Procedures</value>
+  </data>
+  <data name="SOSMFDesc" xml:space="preserve">
+    <value>Metadata Funktionen.</value>
+  </data>
+  <data name="SOSMFDisplayName" xml:space="preserve">
+    <value>Metadata Funktionen</value>
+  </data>
+  <data name="SOSNotExists" xml:space="preserve">
+    <value>Include If Not Exists</value>
+  </data>
+  <data name="SOSNotExistsDesc" xml:space="preserve">
+    <value>Skripte Objekte mit IF NOT EXISTS Option.</value>
+  </data>
+  <data name="SOSOLEDBDesc" xml:space="preserve">
+    <value>OLEDB Tabellen.</value>
+  </data>
+  <data name="SOSOLEDBDisplayName" xml:space="preserve">
+    <value>OLEDB Tabellen</value>
+  </data>
+  <data name="SOSOLESPDesc" xml:space="preserve">
+    <value>OLE Automation Stored Procedures.</value>
+  </data>
+  <data name="SOSOLESPDisplayName" xml:space="preserve">
+    <value>OLE Automation Stored Procedures</value>
+  </data>
+  <data name="SOSPrimaryKeysDesc" xml:space="preserve">
+    <value>Skripte Primärschlüssel pro Tabelle.</value>
+  </data>
+  <data name="SOSPrimaryKeysDisplayName" xml:space="preserve">
+    <value>Skripte Primärschlüssel</value>
+  </data>
+  <data name="SOSProfilerSPDesc" xml:space="preserve">
+    <value>Profiler Stored Procedures.</value>
+  </data>
+  <data name="SOSProfilerSPDisplayName" xml:space="preserve">
+    <value>Profiler Stored Procedures</value>
+  </data>
+  <data name="SOSReplSPDesc" xml:space="preserve">
+    <value>Replikations-Stored Procedures</value>
+  </data>
+  <data name="SOSReplSPDisplayName" xml:space="preserve">
+    <value>Replikation-Stored Procedures</value>
+  </data>
+  <data name="SOSReplTabDesc" xml:space="preserve">
+    <value>Replikationstabellen.</value>
+  </data>
+  <data name="SOSReplTabDisplayName" xml:space="preserve">
+    <value>Replikationstabellen</value>
+  </data>
+  <data name="SOSRowsetDesc" xml:space="preserve">
+    <value>Rowset Functions.</value>
+  </data>
+  <data name="SOSRowsetDisplayName" xml:space="preserve">
+    <value>Rowset Functions</value>
+  </data>
+  <data name="SOSSecurityDesc" xml:space="preserve">
+    <value>Sicherheitsfunktionen.</value>
+  </data>
+  <data name="SOSSecurityDisplayName" xml:space="preserve">
+    <value>Sicherheitsfunktionen</value>
+  </data>
+  <data name="SOSSecuritySPDesc" xml:space="preserve">
+    <value>Sicherheitsrelevante Stored Procedures.</value>
+  </data>
+  <data name="SOSSecuritySPDisplayName" xml:space="preserve">
+    <value>Sicherheitsrelevante Stored Procedures</value>
+  </data>
+  <data name="SOSSysFunDesc" xml:space="preserve">
+    <value>Systemfunktionen.</value>
+  </data>
+  <data name="SOSSysFunDisplayName" xml:space="preserve">
+    <value>Systemfunktionen</value>
+  </data>
+  <data name="SOSSysStatDesc" xml:space="preserve">
+    <value>Statistische Systemfunktionen.</value>
+  </data>
+  <data name="SOSSysStatDisplayName" xml:space="preserve">
+    <value>Statistische Systemfunktionen</value>
+  </data>
+  <data name="SOSTriggersDesc" xml:space="preserve">
+    <value>Skripte Trigger pro Tabelle.</value>
+  </data>
+  <data name="SOSTriggersDisplayName" xml:space="preserve">
+    <value>Skripte Tabellen-Trigger</value>
+  </data>
+  <data name="SOSUnclassifiedDesc" xml:space="preserve">
+    <value>Unklassifiziert.</value>
+  </data>
+  <data name="SOSUnclassifiedDisplayName" xml:space="preserve">
+    <value>Unklassifiziert</value>
+  </data>
+  <data name="SOSUniqueKeysDesc" xml:space="preserve">
+    <value>Skripte Unique Keys pro Tabelle.</value>
+  </data>
+  <data name="SOSUniqueKeysDisplayName" xml:space="preserve">
+    <value>Skripte Unique Keys</value>
+  </data>
+  <data name="SQLAzureCloudName" xml:space="preserve">
+    <value>database.windows.net</value>
+  </data>
+  <data name="SqlError" xml:space="preserve">
+    <value>The {0} has received a severity {1}, state {2} error number {3}
+on line {4} of procedure {5} on server {6}:
+{7}</value>
+  </data>
+  <data name="SqlHelperValidParameter" xml:space="preserve">
+    <value>Bitte einen Namen für Parameter #{0} angeben, die Eigenschaft ParameterName hat den folgenden Wert: '{1}'.</value>
+  </data>
+  <data name="StateChanged" xml:space="preserve">
+    <value>Status gewechselt von {0} zu {1}</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value> -- Erfolgreich:</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>Tabellen</value>
+  </data>
+  <data name="TimeHour" xml:space="preserve">
+    <value> Stunde, </value>
+  </data>
+  <data name="TimeHours" xml:space="preserve">
+    <value> Stunden, </value>
+  </data>
+  <data name="TimeMinute" xml:space="preserve">
+    <value> Minute und </value>
+  </data>
+  <data name="TimeMinutes" xml:space="preserve">
+    <value> Minuten und </value>
+  </data>
+  <data name="TimeSecond" xml:space="preserve">
+    <value> Sekunde</value>
+  </data>
+  <data name="TimeSeconds" xml:space="preserve">
+    <value> Sekunden</value>
+  </data>
+  <data name="TraceFileLine" xml:space="preserve">
+    <value>Tracedatei Zeile # {0} : </value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>true</value>
+  </data>
+  <data name="UDTNotSupported" xml:space="preserve">
+    <value>** Hinweis: Benutzerdefinierte Datentypen werden zur Zeit in SQL Azure nicht unterstützt</value>
+  </data>
+  <data name="UDTNotSupported1" xml:space="preserve">
+    <value>Benutzerdefinierte Datentypen werden zur Zeit in SQL Azure nicht unterstützt</value>
+  </data>
+  <data name="UDTNotSupported2" xml:space="preserve">
+    <value>Benutzerdefinierte Datentypen werden zur Zeit in SQL Azure nicht unterstützt
+Die folgenden benutzerdefinierte Datentypen wurden gefunden:</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="WizardAction" xml:space="preserve">
+    <value>Prozess auswählen</value>
+  </data>
+  <data name="WizardActionDesc" xml:space="preserve">
+    <value>Bitte Prozess für den Wizard auswählen</value>
+  </data>
+  <data name="WizardActionObjectTypes" xml:space="preserve">
+    <value>Objekte auswählen</value>
+  </data>
+  <data name="WizardActionObjectTypesDesc" xml:space="preserve">
+    <value>Datenbankobjekte für Skripte auswählen</value>
+  </data>
+  <data name="WizardActionResultsSummary" xml:space="preserve">
+    <value>Ergebnisbericht</value>
+  </data>
+  <data name="WizardActionResultsSummaryDesc" xml:space="preserve">
+    <value>Skript- und Analyseergebnisse</value>
+  </data>
+  <data name="WizardActionScriptingOptions" xml:space="preserve">
+    <value>Einstellungen für die Scripterstellung</value>
+  </data>
+  <data name="WizardActionScriptingOptionsDesc" xml:space="preserve">
+    <value>Einstellungen für die Objekte auswählen</value>
+  </data>
+  <data name="WizardActionScriptWizardSummary" xml:space="preserve">
+    <value>Skript-Wizard Ergebnisse</value>
+  </data>
+  <data name="WizardActionScriptWizardSummaryDesc" xml:space="preserve">
+    <value>Bitte die Eingaben für den Wizard prüfen.</value>
+  </data>
+  <data name="WizardActionSelectSource" xml:space="preserve">
+    <value>Quelle auswählen</value>
+  </data>
+  <data name="WizardActionSelectSourceDesc" xml:space="preserve">
+    <value>Quelledatenbank für Skripte auswählen</value>
+  </data>
+  <data name="WizardActionSetupTargetConnection" xml:space="preserve">
+    <value>Zielverbindung konfigurieren</value>
+  </data>
+  <data name="WizardActionSetupTargetConnectionDesc" xml:space="preserve">
+    <value>Bitte Informationen für Zielverbindung eingeben.</value>
+  </data>
+  <data name="WizardActionTargetResults" xml:space="preserve">
+    <value>Antwort des Zielservers</value>
+  </data>
+  <data name="WizardActionTargetResultsDesc" xml:space="preserve">
+    <value>TSQL Ergebnisse vom Zielserver</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported" xml:space="preserve">
+    <value>** Hinweis: XML Schema-Sammlungen werden zur Zeit in SQL Azure nicht unterstützt
+** Die entsprechenden Tabellen müssen angepasst werden, damit XML Informationen in dem Datentyp varchar(max) abgelegt werden
+** Hierdurch sind Anpassung an den Anwendungen erforderlich!</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported1" xml:space="preserve">
+    <value>XML Schema-Sammlungen werden zur Zeit in SQL Azure nicht unterstützt</value>
+  </data>
+  <data name="XMLSchemaCollectionNotSupported2" xml:space="preserve">
+    <value>XML Schema-Sammlungen werden zur Zeit in SQL Azure nicht unterstützt.
+Die folgenden XML Schema Collections wurden gefunden:</value>
+  </data>
+  <data name="BCPOutputDirectoryNotFound" xml:space="preserve">
+    <value>BCP-Ausgabeverzeichnis Zugriff auf fehlgeschlagen [{0}]</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="BCPUploadSummary" xml:space="preserve">
+    <value>BCP hochladen Command summary</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="SMOScriptingError" xml:space="preserve">
+    <value>{0}  kein Skript erstellt. Fehlermeldung = {1}</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="BCPOutputSummary" xml:space="preserve">
+    <value>Zusammenfassung der BCP-Ausgabe-Befehle</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="ForiegnKeys" xml:space="preserve">
+    <value>Fremdschlüssel ...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="MessageCanceled" xml:space="preserve">
+    <value>Abgebrochen!</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="MessageCanceledProcessing" xml:space="preserve">
+    <value>Vorgang abgebrochen bei {0} ...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="ScriptingObj" xml:space="preserve">
+    <value>Skripterstellung für {0} ...</value>
+    <comment>v3.5.8</comment>
+  </data>
+  <data name="BCPProcessingUpdate" xml:space="preserve">
+    <value>Gekopieerd {0} van {1} ({2}%)</value>
+    <comment>v3.6.2</comment>
+  </data>
+  <data name="BCPMissingOutput" xml:space="preserve">
+    <value>BCP-Ausgabe so ging verloren für Befehl:
+
+{0}
+
+Daten-Export wurde für {1}-Tabelle nicht abgeschlossen. Bitte versuchen Sie es erneut oder oben Befehl für manuelle Export-Vorgang verwenden.</value>
+    <comment>v3.6.3</comment>
+  </data>
+  <data name="DBConnect" xml:space="preserve">
+    <value>Auswahl "Master DB" um eine Auflistung aller Datenbanken zu erhalten.
+Auswahl "Datenbank angeben" um gezielt eine Datenbank auswählen zu können.</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="DBConnectWarningTarget" xml:space="preserve">
+    <value>Hinweis: Bei der Auswahl "Datenbank angeben" gibt es keine Möglichkeit, eine neue Datenbank zu erstellen oder die aktuell ausgewählte zu löschen.</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageSpecifyDatabase" xml:space="preserve">
+    <value>Bei "Datenbank angeben" bitte Datenbanknamen eintragen</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageTitleConnectSource" xml:space="preserve">
+    <value>Verbindung zu Quellserver</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageTitleConnectTarget" xml:space="preserve">
+    <value>Verbindung zum Zielserver</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="MessageUserName" xml:space="preserve">
+    <value>Benutzername wird benötigt</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="NoSqlServers1" xml:space="preserve">
+    <value>Keine SQL Server im Netzwerk gefunden!</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="PerformanceWarning" xml:space="preserve">
+    <value>Performance-Warnung</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="PerformanceWarningAreYouSure" xml:space="preserve">
+    <value>Es wird dringend empfohlen, die Option "Datenbank angeben" aufgrund von Performance-Problemen nicht auszuwählen!
+
+
+Möchten Sie trotzdem fortfahren?</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="ServerNamesDoNotMatch" xml:space="preserve">
+    <value>Servername {0} sollte {1} sein. Automatisch korrigieren?</value>
+    <comment>v3.7.2</comment>
+  </data>
+  <data name="ServerType_SQLAzure" xml:space="preserve">
+    <value>SQL Azure</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="ServerType_SQLAzureFed" xml:space="preserve">
+    <value>SQL Azure Federation</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="ServerType_SQLServer" xml:space="preserve">
+    <value>SQL Server</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="TargetServer" xml:space="preserve">
+    <value>Zielserver</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="TargetServerDesc" xml:space="preserve">
+    <value>Zielserver aussuchen</value>
+    <comment>v3.7.4</comment>
+  </data>
+  <data name="SOSScriptCollationDesc" xml:space="preserve">
+    <value>Skript-Sortierung.</value>
+    <comment>v3.7.8.1</comment>
+  </data>
+  <data name="SOSScriptCollationDisplayName" xml:space="preserve">
+    <value>Skript-Sortierung</value>
+    <comment>v3.7.8.1</comment>
+  </data>
+  <data name="FederationMemberInfo" xml:space="preserve">
+    <value>{0} on {1} member id = {2} range {3} </value>
+    <comment>v3.8.2</comment>
+  </data>
+  <data name="RetryLimitExceeded" xml:space="preserve">
+    <value>Wiederholungsversuche überschritten</value>
+    <comment>v3.8.2</comment>
+  </data>
+  <data name="ErrorParsingBCPArgs" xml:space="preserve">
+    <value>Fehler beim Analysieren der bcpArgs</value>
+  </data>
+  <data name="DependencyCheckerFileNotFound" xml:space="preserve">
+    <value>Die Abhängigkeitsdatei nicht gefunden. Fehler = {0}</value>
+    <comment>3.9.11</comment>
+  </data>
+  <data name="ErrorMissingDependencies" xml:space="preserve">
+    <value>Tut mir leid, aber die Abhängigkeiten für {0} fehlen.
+
+Fehlermeldung = {1}.</value>
+    <comment>v3.9.11</comment>
+  </data>
+  <data name="FederationNotSupported" xml:space="preserve">
+    <value>SQL Azure Föderation Objekte sind in SQL Server nicht unterstützt. Entfernt "{0}" Erklärung zur Tabelle "{1}.</value>
+  </data>
+</root>

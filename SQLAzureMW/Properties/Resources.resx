@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Discovering" xml:space="preserve">
+    <value>Discovering: {0} of {1}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Done!</value>
+  </data>
+  <data name="WizardActionSelectSource" xml:space="preserve">
+    <value>Select Source</value>
+  </data>
+  <data name="WizardActionSelectSourceDesc" xml:space="preserve">
+    <value>Select the source you want to script.</value>
+  </data>
+  <data name="WizardActionObjectTypes" xml:space="preserve">
+    <value>Choose Objects</value>
+  </data>
+  <data name="WizardActionObjectTypesDesc" xml:space="preserve">
+    <value>Select database objects to script</value>
+  </data>
+  <data name="WizardActionResultsSummary" xml:space="preserve">
+    <value>Results Summary</value>
+  </data>
+  <data name="WizardActionResultsSummaryDesc" xml:space="preserve">
+    <value>Scripting and Analysis Summary</value>
+  </data>
+  <data name="WizardActionScriptWizardSummary" xml:space="preserve">
+    <value>Script Wizard Summary</value>
+  </data>
+  <data name="WizardActionScriptWizardSummaryDesc" xml:space="preserve">
+    <value>Review your selections for the wizard.</value>
+  </data>
+  <data name="WizardActionSetupTargetConnection" xml:space="preserve">
+    <value>Setup Target Server Connection</value>
+  </data>
+  <data name="WizardActionSetupTargetConnectionDesc" xml:space="preserve">
+    <value>Enter information for connection to Target Server.</value>
+  </data>
+  <data name="WizardActionTargetResults" xml:space="preserve">
+    <value>Target Server Response</value>
+  </data>
+  <data name="WizardActionTargetResultsDesc" xml:space="preserve">
+    <value>Results from TSQL against Target Server</value>
+  </data>
+  <data name="ObjectTypeTriggers" xml:space="preserve">
+    <value>Triggers</value>
+  </data>
+  <data name="ObjectTypeSchemas" xml:space="preserve">
+    <value>Schemas</value>
+  </data>
+  <data name="ObjectTypeStoredProcedures" xml:space="preserve">
+    <value>Stored Procedures</value>
+  </data>
+  <data name="ObjectTypeTables" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="ObjectTypeUDF" xml:space="preserve">
+    <value>User Defined Functions</value>
+  </data>
+  <data name="ObjectTypeUDT" xml:space="preserve">
+    <value>User Defined Data Types</value>
+  </data>
+  <data name="ObjectTypeViews" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="ObjectTypeXMLSchemaCollections" xml:space="preserve">
+    <value>XML Schema Collections</value>
+  </data>
+  <data name="TreeNodeIfNotExists" xml:space="preserve">
+    <value>Include If Not Exists -- </value>
+  </data>
+  <data name="TreeNodeObjects" xml:space="preserve">
+    <value>Objects</value>
+  </data>
+  <data name="TreeNodeOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="TreeNodeScriptConstraints" xml:space="preserve">
+    <value>Script Check Constraints -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptDefaults" xml:space="preserve">
+    <value>Script Defaults -- </value>
+  </data>
+  <data name="TreeNodeScriptForeignKeys" xml:space="preserve">
+    <value>Script Foreign Keys -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptHeaders" xml:space="preserve">
+    <value>Script Headers -- </value>
+  </data>
+  <data name="TreeNodeScriptIndexes" xml:space="preserve">
+    <value>Script Indexes -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptPrimaryKey" xml:space="preserve">
+    <value>Script Primary Keys -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptUniqueKeys" xml:space="preserve">
+    <value>Script Unique Keys -- {0}</value>
+  </data>
+  <data name="TreeNodeTableView" xml:space="preserve">
+    <value>Table / View Options</value>
+  </data>
+  <data name="AnalysisComplete" xml:space="preserve">
+    <value>SQLAzureMW has finished analysis.  Any issues discovered will be reported above.</value>
+  </data>
+  <data name="ObjectTypeRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="WizardAction" xml:space="preserve">
+    <value>Select Process</value>
+  </data>
+  <data name="WizardActionDesc" xml:space="preserve">
+    <value>Select the process you want the wizard to walk you through.</value>
+  </data>
+  <data name="TreeNodeScriptData" xml:space="preserve">
+    <value>Script Table / Data -- {0}</value>
+  </data>
+  <data name="TreeNodeScriptDropCreate" xml:space="preserve">
+    <value>Script DROP and CREATE -- </value>
+  </data>
+  <data name="AzureUserName" xml:space="preserve">
+    <value>Azure requires {0} extension on your user name.  Do you want me to add it for you?</value>
+  </data>
+  <data name="AzureUserNameWarning" xml:space="preserve">
+    <value>Azure User Name Requirements</value>
+  </data>
+  <data name="SQLAzureCloudName" xml:space="preserve">
+    <value>database.windows.net</value>
+  </data>
+  <data name="ObjectTypeUDTT" xml:space="preserve">
+    <value>User Defined Table Types</value>
+  </data>
+  <data name="TreeNodeDatabase" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="TreeNodeGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="DatabaseExists" xml:space="preserve">
+    <value>Database Exists</value>
+  </data>
+  <data name="ErrorCreatingDB" xml:space="preserve">
+    <value>Error Creating Database</value>
+  </data>
+  <data name="MessageDatabaseExists" xml:space="preserve">
+    <value>Sorry, database already exists.  Please choose another name.</value>
+  </data>
+  <data name="CompatibilityChecks" xml:space="preserve">
+    <value>Compatibility Checks -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksActiveDirectory" xml:space="preserve">
+    <value>Active Directory Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksBackupRestore" xml:space="preserve">
+    <value>Backup and Restore Tables -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksCDC" xml:space="preserve">
+    <value>Change Data Capture -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksCDCT" xml:space="preserve">
+    <value>Change Data Capture Tables -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksDataControls" xml:space="preserve">
+    <value>Data Controls -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksDistributedQueries" xml:space="preserve">
+    <value>Distributed Queries Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksEngineSP" xml:space="preserve">
+    <value>Database Engine Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksFullTextSearch" xml:space="preserve">
+    <value>Full Text Search Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksGeneralExtended" xml:space="preserve">
+    <value>General Extended Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksGeneralTSQL" xml:space="preserve">
+    <value>General TSQL -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksIntegrationServicesTable" xml:space="preserve">
+    <value>Integration Services Tables -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksLogShipping" xml:space="preserve">
+    <value>Log Shipping -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMail" xml:space="preserve">
+    <value>Database Mail Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMaintenance" xml:space="preserve">
+    <value>Database Maintenance Plans -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksMetadataFunction" xml:space="preserve">
+    <value>Metadata Functions -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksOLEAutomationSP" xml:space="preserve">
+    <value>OLE Automation Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksOLEDBTable" xml:space="preserve">
+    <value>OLEDB Tables -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksProfilerSP" xml:space="preserve">
+    <value>Profiler Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksReplicationSP" xml:space="preserve">
+    <value>Replication Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksReplicationTable" xml:space="preserve">
+    <value>Replication Tables -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksRowsetFunction" xml:space="preserve">
+    <value>Rowset Functions -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSecurityFunction" xml:space="preserve">
+    <value>Security Functions -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSecuritySP" xml:space="preserve">
+    <value>Security Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLMailSP" xml:space="preserve">
+    <value>SQL Mail Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLServerAgentSP" xml:space="preserve">
+    <value>SQL Server Agent Stored Procedures -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSQLServerAgentTable" xml:space="preserve">
+    <value>SQL Server Agent Tables -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemCatalogView" xml:space="preserve">
+    <value>System Catalog Views -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemFunction" xml:space="preserve">
+    <value>System Functions -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksSystemStatisticalFunction" xml:space="preserve">
+    <value>System Statistical Functions -- {0}</value>
+  </data>
+  <data name="CompatibilityChecksUnclassified" xml:space="preserve">
+    <value>Unclassified -- {0}</value>
+  </data>
+  <data name="DeleteDatabase" xml:space="preserve">
+    <value>Delete Database</value>
+  </data>
+  <data name="DialogFilterRTF" xml:space="preserve">
+    <value>Rich Text Format files (*.rtf)|*.rtf|TSQL File (*.sql)|*.sql|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterSQLRTF" xml:space="preserve">
+    <value>TSQL File (*.sql)|*.sql|Rich Text Format files (*.rtf)|*.rtf|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterTrace" xml:space="preserve">
+    <value>SQL Profiler trace files (*.trc)|*.trc|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogFilterTSQL" xml:space="preserve">
+    <value>TSQL files (*.sql)|*.sql|All files (*.*)|*.*</value>
+  </data>
+  <data name="DialogTitleTrace" xml:space="preserve">
+    <value>Select SQL Profiler trace file to analyze</value>
+  </data>
+  <data name="DialogTitleTSQL" xml:space="preserve">
+    <value>Select TSQL file</value>
+  </data>
+  <data name="MessageAnalysisFailed" xml:space="preserve">
+    <value>Analysis failed: {0}</value>
+  </data>
+  <data name="MessageAnalysisFailedAt" xml:space="preserve">
+    <value>Analysis failed at {0}</value>
+  </data>
+  <data name="MessageAreYouSure" xml:space="preserve">
+    <value>Are you sure you want to delete database {0}?</value>
+  </data>
+  <data name="MessageCalculatingNumberOrRecs" xml:space="preserve">
+    <value>Calculating number of records to process</value>
+  </data>
+  <data name="MessageCalculatingSize" xml:space="preserve">
+    <value>Calculating size ...</value>
+  </data>
+  <data name="MessageCreatingDropScripts" xml:space="preserve">
+    <value>Creating DROP scripts ...</value>
+  </data>
+  <data name="MessageExecuteScript" xml:space="preserve">
+    <value>Execute script against destination server?</value>
+  </data>
+  <data name="MessageFileDoesNotExists" xml:space="preserve">
+    <value>Sorry, but the file you entered does not exist</value>
+  </data>
+  <data name="MessageFinishedNoAnalysis" xml:space="preserve">
+    <value>No analysis done on script.
+Processing finished at {0} -- UTC -&gt; {1}
+Total processing time: {2}</value>
+  </data>
+  <data name="MessageFinishedWithAnalysis" xml:space="preserve">
+    <value>Analysis completed at {0} -- UTC -&gt; {1}
+Any issues discovered will be reported above.
+Total processing time: {2}</value>
+  </data>
+  <data name="MessageHour" xml:space="preserve">
+    <value> hour, </value>
+  </data>
+  <data name="MessageHours" xml:space="preserve">
+    <value> hours, </value>
+  </data>
+  <data name="MessageMinute" xml:space="preserve">
+    <value> minute and </value>
+  </data>
+  <data name="MessageMinutes" xml:space="preserve">
+    <value> minutes and </value>
+  </data>
+  <data name="MessageProcessingStatus" xml:space="preserve">
+    <value>Processing {0} out of {1}</value>
+  </data>
+  <data name="MessageProcessStarted" xml:space="preserve">
+    <value>Process started at {0} -- UTC -&gt; {1} ... </value>
+  </data>
+  <data name="MessageReadyToGenerate" xml:space="preserve">
+    <value>Ready to generate SQL script?</value>
+  </data>
+  <data name="MessageSecond" xml:space="preserve">
+    <value> second</value>
+  </data>
+  <data name="MessageSeconds" xml:space="preserve">
+    <value> seconds</value>
+  </data>
+  <data name="MessageSorting" xml:space="preserve">
+    <value>Sorting objects by dependency ...</value>
+  </data>
+  <data name="SaveAzureResults" xml:space="preserve">
+    <value>Save SQL Azure Results</value>
+  </data>
+  <data name="SaveResults" xml:space="preserve">
+    <value>Save Results Summary</value>
+  </data>
+  <data name="SaveSQLScript" xml:space="preserve">
+    <value>Save SQL Script</value>
+  </data>
+  <data name="TitleExecuteScript" xml:space="preserve">
+    <value>Execute Script</value>
+  </data>
+  <data name="TitleGenerateScript" xml:space="preserve">
+    <value>Generate Script</value>
+  </data>
+  <data name="TreeNodeTSQLCompatibility" xml:space="preserve">
+    <value>TSQL Compatibility Checks</value>
+  </data>
+  <data name="CircularDependencies" xml:space="preserve">
+    <value>Circular table dependencies have been found on the following tables:</value>
+  </data>
+  <data name="DataUploadBeforeForeignKeys" xml:space="preserve">
+    <value>Data will be uploaded before foreign keys are added.</value>
+  </data>
+  <data name="Encrypted" xml:space="preserve">
+    <value>{0} is Encrypted</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="TreeNodeEncrypted" xml:space="preserve">
+    <value>Encrypted objects will not be scripted</value>
+    <comment>v3.5.6</comment>
+  </data>
+  <data name="MessageCanceled" xml:space="preserve">
+    <value>Canceled!</value>
+  </data>
+  <data name="MessageCanceledProcessing" xml:space="preserve">
+    <value>Canceled processing at {0} ...</value>
+  </data>
+  <data name="SelectDatabase" xml:space="preserve">
+    <value>Select Database</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="SelectFederationMember" xml:space="preserve">
+    <value>Select Federation Member</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="CreateDatabase" xml:space="preserve">
+    <value>Create Database</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberCreated" xml:space="preserve">
+    <value>Splitpoint created</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberDropped" xml:space="preserve">
+    <value>Splitpoint dropped</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberHigh" xml:space="preserve">
+    <value>High (MAX)</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationMemberLow" xml:space="preserve">
+    <value>Low ({0})</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Retry</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDropHeader" xml:space="preserve">
+    <value>{0} drop options</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationCreate" xml:space="preserve">
+    <value>Create</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationCreated" xml:space="preserve">
+    <value>Federation {0} created!</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDelete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDrop" xml:space="preserve">
+    <value>Drop federation {0}?</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationDropped" xml:space="preserve">
+    <value>Federation {0} dropped!</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationInfo" xml:space="preserve">
+    <value>Working with federation {0} and member {1}</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="FederationVarbinaryRange" xml:space="preserve">
+    <value>Sorry, but Varbinary range must be between 1 and 900</value>
+    <comment>v3.7.8</comment>
+  </data>
+  <data name="TreeNodeScriptCollation" xml:space="preserve">
+    <value>Script Collation -- {0}</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseBusinessEdition" xml:space="preserve">
+    <value>Business</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeFiftyGB" xml:space="preserve">
+    <value>50 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeFiveGB" xml:space="preserve">
+    <value>5 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeFourtyGB" xml:space="preserve">
+    <value>40 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeOneGB" xml:space="preserve">
+    <value>1 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeTenGB" xml:space="preserve">
+    <value>10 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeThirtyGB" xml:space="preserve">
+    <value>30 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeTwentyGB" xml:space="preserve">
+    <value>20 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseWebEdition" xml:space="preserve">
+    <value>Web</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="DatabaseCollation" xml:space="preserve">
+    <value>Collation {0}</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeOneHundredFiftyGB" xml:space="preserve">
+    <value>150 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+  <data name="CreateDatabaseSizeOneHundredGB" xml:space="preserve">
+    <value>100 GB</value>
+    <comment>v3.8.0</comment>
+  </data>
+</root>

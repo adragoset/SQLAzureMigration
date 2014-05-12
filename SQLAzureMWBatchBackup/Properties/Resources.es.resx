@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BCPOutputDirectoryNotFound" xml:space="preserve">
+    <value>Error al acceder al directorio de salida BCP [{0}]</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Hecho!</value>
+  </data>
+  <data name="ErrorOpeningFile" xml:space="preserve">
+    <value>Perdón, error abriendo el archivo de salida {0}.  Error: {1}</value>
+  </data>
+  <data name="MessageCreatingDropScripts" xml:space="preserve">
+    <value>Creando los scripts DROP ...</value>
+  </data>
+  <data name="MessageFinishedNoAnalysis" xml:space="preserve">
+    <value>No se analizó la secuencia de comandos.
+Proceso terminado a las {0} -- UTC -&gt; {1}
+Tiempo de procesamiento total: {2}</value>
+  </data>
+  <data name="MessageFinishedWithAnalysis" xml:space="preserve">
+    <value>Análisis completado a las  {0} -- UTC -&gt; {1}
+Los problemas descubiertos han sido informados arriba.
+Tiempo de procesamiento total: {2}</value>
+  </data>
+  <data name="MessageHour" xml:space="preserve">
+    <value>hora,</value>
+  </data>
+  <data name="MessageHours" xml:space="preserve">
+    <value>horas,</value>
+  </data>
+  <data name="MessageMinute" xml:space="preserve">
+    <value>minuto y</value>
+  </data>
+  <data name="MessageMinutes" xml:space="preserve">
+    <value>minutos y</value>
+  </data>
+  <data name="MessageProcessStarted" xml:space="preserve">
+    <value>El proceso inició a las  {0} -- UTC -&gt; {1} ...</value>
+  </data>
+  <data name="MessageSecond" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="MessageSeconds" xml:space="preserve">
+    <value>segundos</value>
+  </data>
+  <data name="MessageSorting" xml:space="preserve">
+    <value>Organizando objetos por dependencias ...</value>
+  </data>
+  <data name="ObjectTypeRoles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="ObjectTypeSchemas" xml:space="preserve">
+    <value>Esquemas</value>
+  </data>
+  <data name="ObjectTypeStoredProcedures" xml:space="preserve">
+    <value>Procedimientos Almacenados</value>
+  </data>
+  <data name="ObjectTypeTables" xml:space="preserve">
+    <value>Tablas</value>
+  </data>
+  <data name="ObjectTypeTriggers" xml:space="preserve">
+    <value>Desencadenadores</value>
+  </data>
+  <data name="ObjectTypeUDT" xml:space="preserve">
+    <value>Tipos de datos definidos por el usuario</value>
+  </data>
+  <data name="ObjectTypeUDTT" xml:space="preserve">
+    <value>Tipos de Tablas definidos por el usuario</value>
+  </data>
+  <data name="ObjectTypeXMLSchemaCollections" xml:space="preserve">
+    <value>Colecciones de esquemas XML</value>
+  </data>
+  <data name="ProgramArgs" xml:space="preserve">
+    <value>Todos los parametros paraSQLAzureMWBatchBackup pueden ser encontrados en el archivo de configuración.
+
+Si lo desea, puede ingnorar el archivo de configuración, especificando los parametros que desea redefinir.
+
+uso: SQLAzureMWBatchBackup -S servidor -U NombreDeUsuario -P contraseña -D Northwind
+
+[-a {true o false} anexar carpeta datetime a directorio de salida]
+[-S servidor de origen]
+[-U Nombre de usuario]
+[-P contraseña]
+[-D base de datos de origen]
+[-o  archivo de salida]
+[-O directorio de salida para todos los archivos]
+[-T conexión de confianza]
+
+Tenga en cuenta que los anteriores parametros reemplazan a los especificados en el archivo de configuración.</value>
+  </data>
+  <data name="ProgramVersion" xml:space="preserve">
+    <value>{0}, Version {1}</value>
+    <comment>v3.6.3</comment>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>true</value>
+  </data>
+</root>
